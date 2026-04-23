@@ -110,9 +110,9 @@ export function DividendDashboard() {
     <div className="shell">
       <section className="hero-card">
         <div className="hero-copy">
-          <p className="eyebrow">PSX dividend board</p>
+          <p className="eyebrow text-xs">PSX dividend board</p>
           <h1>KMIALLSHR dividend payers, normalized for FY24 to FY26.</h1>
-          <p className="lede">
+          <p className="lede text-sm">
             Current constituent list and latest prices come from the official{" "}
             <a
               href={derived.rows[0]?.indexUrl ?? "https://dps.psx.com.pk/indices/KMIALLSHR"}
@@ -129,24 +129,24 @@ export function DividendDashboard() {
           <div className="stat-card">
             <span className="stat-label">Selected FY</span>
             <strong>{activeTab.label}</strong>
-            <span>{activeTab.note}</span>
+            <span className="text-xs">{activeTab.note}</span>
           </div>
           <div className="stat-card">
             <span className="stat-label">Dividend payers</span>
             <strong>{derived.rows.length}</strong>
-            <span>Current KMIALLSHR constituents</span>
+            <span className="text-xs">Current KMIALLSHR constituents</span>
           </div>
           <div className="stat-card">
             <span className="stat-label">Net cash if held equally</span>
             <strong>{formatCurrency(derived.totalNetCash, 0)}</strong>
-            <span>{formatCurrency(derived.investment, 0)} per stock</span>
+            <span className="text-xs">{formatCurrency(derived.investment, 0)} per stock</span>
           </div>
           <div className="stat-card">
             <span className="stat-label">Top net yield</span>
             <strong>
               {derived.topStock ? formatPercent(derived.topStock.netYield) : "0.00%"}
             </strong>
-            <span>{derived.topStock?.symbol ?? "No rows"}</span>
+            <span className="text-xs">{derived.topStock?.symbol ?? "No rows"}</span>
           </div>
         </div>
       </section>
@@ -154,7 +154,7 @@ export function DividendDashboard() {
       <section className="controls-grid">
         <div className="panel">
           <div className="panel-header">
-            <p className="eyebrow">Filters</p>
+            <p className="eyebrow text-xs">Filters</p>
             <h2>Choose the fiscal year view.</h2>
           </div>
           <div className="tab-row" role="tablist" aria-label="Fiscal year tabs">
@@ -164,17 +164,18 @@ export function DividendDashboard() {
                 type="button"
                 role="tab"
                 aria-selected={selectedYear === tab.key}
-                className={selectedYear === tab.key ? "tab is-active" : "tab"}
+                className={selectedYear === tab.key ? "tab text-sm is-active" : "tab text-sm"}
                 onClick={() => setSelectedYear(tab.key)}
               >
                 <span>{tab.label}</span>
-                <small>{tab.note}</small>
+                <small className="text-xs">{tab.note}</small>
               </button>
             ))}
           </div>
           <label className="field">
-            <span>Search symbol or company</span>
+            <span className="text-xs">Search symbol or company</span>
             <input
+              className="text-sm"
               value={search}
               onChange={(event) => setSearch(event.target.value)}
               placeholder="POL, MEBL, ENGRO..."
@@ -184,44 +185,48 @@ export function DividendDashboard() {
 
         <div className="panel">
           <div className="panel-header">
-            <p className="eyebrow">Assumptions</p>
+            <p className="eyebrow text-xs">Assumptions</p>
             <h2>Returns on a Rs 1,000,000 holding.</h2>
           </div>
           <div className="field-grid">
             <label className="field">
-              <span>Investment per stock (Rs)</span>
+              <span className="text-xs">Investment per stock (Rs)</span>
               <input
+                className="text-sm"
                 inputMode="numeric"
                 value={investmentAmount}
                 onChange={(event) => setInvestmentAmount(event.target.value)}
               />
             </label>
             <label className="field">
-              <span>WHT (%)</span>
+              <span className="text-xs">WHT (%)</span>
               <input
+                className="text-sm"
                 inputMode="decimal"
                 value={withholdingTax}
                 onChange={(event) => setWithholdingTax(event.target.value)}
               />
             </label>
             <label className="field">
-              <span>Zakat (%)</span>
+              <span className="text-xs">Zakat (%)</span>
               <input
+                className="text-sm"
                 inputMode="decimal"
                 value={zakatRate}
                 onChange={(event) => setZakatRate(event.target.value)}
               />
             </label>
             <label className="field">
-              <span>Face value assumption (Rs)</span>
+              <span className="text-xs">Face value assumption (Rs)</span>
               <input
+                className="text-sm"
                 inputMode="decimal"
                 value={faceValue}
                 onChange={(event) => setFaceValue(event.target.value)}
               />
             </label>
           </div>
-          <p className="methodology">
+          <p className="methodology text-xs">
             PSX payout rows are published as dividend percentages. This app converts them to
             rupees per share using a default face value assumption of Rs {derived.configuredFaceValue.toFixed(2)}.
             WHT defaults to 15%; zakat defaults to 0%.
@@ -232,17 +237,17 @@ export function DividendDashboard() {
       <section className="table-panel">
         <div className="panel-header table-header">
           <div>
-            <p className="eyebrow">Snapshot date</p>
+            <p className="eyebrow text-xs">Snapshot date</p>
             <h2>{derived.sourceAsOf || "N/A"}</h2>
           </div>
-          <p className="methodology">
+          <p className="methodology text-xs">
             FY26 is year-to-date based on cash dividends already published on PSX as of{" "}
             {derived.sourceAsOf || "the latest import"}.
           </p>
         </div>
 
         <div className="table-wrap">
-          <table>
+          <table className="text-sm">
             <thead>
               <tr>
                 <th>Stock</th>
@@ -258,11 +263,11 @@ export function DividendDashboard() {
               {derived.rows.map((row) => (
                 <tr key={row.id}>
                   <td>
-                    <div className="stock-cell">
+                    <div className="stock-cell text-sm">
                       <a href={row.companyUrl} target="_blank" rel="noreferrer">
                         {row.symbol}
                       </a>
-                      <div>
+                      <div className="text-xs">
                         <strong>{row.name}</strong>
                         <span>FY end: {row.fiscalYearEndLabel}</span>
                       </div>
@@ -271,9 +276,9 @@ export function DividendDashboard() {
                   <td>{formatCurrency(row.latestPrice)}</td>
                   <td>{row.intervalLabel || "None"}</td>
                   <td>
-                    <div className="metric-stack">
+                    <div className="metric-stack text-sm">
                       <strong>{formatCurrency(row.totalDividendPerShare)}</strong>
-                      <span>{formatPercent(row.totalDividendPercent)}</span>
+                      <span className="text-xs">{formatPercent(row.totalDividendPercent)}</span>
                     </div>
                   </td>
                   <td>{formatCurrency(row.grossDividendCash, 0)}</td>
