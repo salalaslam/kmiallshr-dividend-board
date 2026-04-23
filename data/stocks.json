@@ -1,0 +1,6398 @@
+[
+  {
+    "symbol": "AABS",
+    "name": "Al-Abbas Sugar Mills Limited",
+    "latestPrice": 913.4,
+    "fiscalYearEndLabel": "September",
+    "fiscalYearEndMonth": 9,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/AABS",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 250,
+        "totalDividendPerShare": 25
+      },
+      "fy25": {
+        "payoutCount": 3,
+        "intervalLabel": "Triannual",
+        "totalDividendPercent": 500,
+        "totalDividendPerShare": 50
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-01-02",
+        "periodLabel": "30/09/2024(YR)",
+        "periodEnd": "30/09/2024",
+        "detail": "250%(F) (D)",
+        "bookClosure": "22/01/2025 - 28/01/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 250,
+        "dividendPerShare": 25
+      },
+      {
+        "announcedAt": "2025-05-29",
+        "periodLabel": "31/03/2025(HYR)",
+        "periodEnd": "31/03/2025",
+        "detail": "120%(i) (D)",
+        "bookClosure": "12/06/2025 - 14/06/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 120,
+        "dividendPerShare": 12
+      },
+      {
+        "announcedAt": "2025-07-29",
+        "periodLabel": "30/06/2025(IIIQ)",
+        "periodEnd": "30/06/2025",
+        "detail": "250%(ii) (D)",
+        "bookClosure": "12/08/2025 - 14/08/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 250,
+        "dividendPerShare": 25
+      },
+      {
+        "announcedAt": "2026-01-05",
+        "periodLabel": "30/09/2025(YR)",
+        "periodEnd": "30/09/2025",
+        "detail": "130%(F) (D)",
+        "bookClosure": "22/01/2026 - 28/01/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 130,
+        "dividendPerShare": 13
+      }
+    ]
+  },
+  {
+    "symbol": "ABOT",
+    "name": "Abbott Laboratories (Pakistan) Limited",
+    "latestPrice": 945.39,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ABOT",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy25": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-20",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "100%(F) (D)",
+        "bookClosure": "16/04/2025 - 23/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      }
+    ]
+  },
+  {
+    "symbol": "ACPL",
+    "name": "Attock Cement Pakistan Limited",
+    "latestPrice": 238.41,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ACPL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 80,
+        "totalDividendPerShare": 8
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-11",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "80%(F) (D)",
+        "bookClosure": "23/09/2025 - 30/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 80,
+        "dividendPerShare": 8
+      }
+    ]
+  },
+  {
+    "symbol": "ADAMS",
+    "name": "Adam Sugar Mills Limited",
+    "latestPrice": 80.13,
+    "fiscalYearEndLabel": "September",
+    "fiscalYearEndMonth": 9,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ADAMS",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 15,
+        "totalDividendPerShare": 1.5
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 40,
+        "totalDividendPerShare": 4
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-01-06",
+        "periodLabel": "30/09/2024(YR)",
+        "periodEnd": "30/09/2024",
+        "detail": "15%(F) (D)",
+        "bookClosure": "18/01/2025 - 28/01/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 15,
+        "dividendPerShare": 1.5
+      },
+      {
+        "announcedAt": "2026-01-05",
+        "periodLabel": "30/09/2025(YR)",
+        "periodEnd": "30/09/2025",
+        "detail": "40%(F) (D)",
+        "bookClosure": "17/01/2026 - 27/01/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      }
+    ]
+  },
+  {
+    "symbol": "AGIL",
+    "name": "Agriauto Industries Limited",
+    "latestPrice": 175.32,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/AGIL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 35,
+        "totalDividendPerShare": 3.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-28",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "35%(F) (D)",
+        "bookClosure": "14/10/2025 - 20/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 35,
+        "dividendPerShare": 3.5
+      }
+    ]
+  },
+  {
+    "symbol": "AGP",
+    "name": "AGP Limited",
+    "latestPrice": 191.41,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/AGP",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 40,
+        "totalDividendPerShare": 4
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-28",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "40%(F) (D)",
+        "bookClosure": "03/04/2025 - 10/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      },
+      {
+        "announcedAt": "2025-08-27",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "20%(i) (D)",
+        "bookClosure": "04/09/2025 - 05/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "AHTM",
+    "name": "Ahmad Hassan Textile Mills Limited",
+    "latestPrice": 74.48,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/AHTM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 15,
+        "totalDividendPerShare": 1.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-10-06",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "15%(F) (D)",
+        "bookClosure": "21/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 15,
+        "dividendPerShare": 1.5
+      }
+    ]
+  },
+  {
+    "symbol": "AIRLINK",
+    "name": "Air Link Communication Limited",
+    "latestPrice": 141.86,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/AIRLINK",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 70,
+        "totalDividendPerShare": 7
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-28",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "25%(i) (D)",
+        "bookClosure": "12/03/2025 - 14/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      },
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "45%(F) (D)",
+        "bookClosure": "16/10/2025 - 22/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 45,
+        "dividendPerShare": 4.5
+      },
+      {
+        "announcedAt": "2025-10-23",
+        "periodLabel": "30/09/2025(IIIQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "20%(i) (D)",
+        "bookClosure": "04/11/2025 - 06/11/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "ALNRS",
+    "name": "Al-Noor Sugar Mills Limited",
+    "latestPrice": 121.99,
+    "fiscalYearEndLabel": "September",
+    "fiscalYearEndMonth": 9,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ALNRS",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 40,
+        "totalDividendPerShare": 4
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-12-31",
+        "periodLabel": "30/09/2025(YR)",
+        "periodEnd": "30/09/2025",
+        "detail": "40%(F) (D)",
+        "bookClosure": "21/01/2026 - 28/01/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      }
+    ]
+  },
+  {
+    "symbol": "APL",
+    "name": "Attock Petroleum Limited",
+    "latestPrice": 575.46,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/APL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 255,
+        "totalDividendPerShare": 25.5
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 200,
+        "totalDividendPerShare": 20
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-01-27",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "125%(i) (D)",
+        "bookClosure": "10/02/2025 - 12/02/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 125,
+        "dividendPerShare": 12.5
+      },
+      {
+        "announcedAt": "2025-08-11",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "130%(F) (D)",
+        "bookClosure": "21/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 130,
+        "dividendPerShare": 13
+      },
+      {
+        "announcedAt": "2026-02-24",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "200%(i) (D)",
+        "bookClosure": "03/03/2025 - 05/03/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 200,
+        "dividendPerShare": 20
+      }
+    ]
+  },
+  {
+    "symbol": "ARPL",
+    "name": "Archroma Pakistan Limited",
+    "latestPrice": 416.95,
+    "fiscalYearEndLabel": "September",
+    "fiscalYearEndMonth": 9,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ARPL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 300,
+        "totalDividendPerShare": 30
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-07-29",
+        "periodLabel": "30/06/2025(IIIQ)",
+        "periodEnd": "30/06/2025",
+        "detail": "200%(i) (D)",
+        "bookClosure": "06/08/2025 - 08/08/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 200,
+        "dividendPerShare": 20
+      },
+      {
+        "announcedAt": "2025-10-29",
+        "periodLabel": "30/09/2025(YR)",
+        "periodEnd": "30/09/2025",
+        "detail": "100%(F) (D)",
+        "bookClosure": "17/12/2025 - 24/12/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      }
+    ]
+  },
+  {
+    "symbol": "ATRL",
+    "name": "Attock Refinery Limited",
+    "latestPrice": 923.2,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ATRL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 25,
+        "totalDividendPerShare": 2.5
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-01-27",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "50%(I) (D)",
+        "bookClosure": "10/02/2025 - 12/02/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      },
+      {
+        "announcedAt": "2025-08-11",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "50%(F) (D)",
+        "bookClosure": "21/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      },
+      {
+        "announcedAt": "2026-02-24",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "25%(i) (D)",
+        "bookClosure": "09/03/2025 - 11/03/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      }
+    ]
+  },
+  {
+    "symbol": "BERG",
+    "name": "Berger Paints Pakistan Limited",
+    "latestPrice": 94.44,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/BERG",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 50,
+        "totalDividendPerShare": 5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-25",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "50%(F) (D)",
+        "bookClosure": "21/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      }
+    ]
+  },
+  {
+    "symbol": "BIFO",
+    "name": "Biafo Industries Limited",
+    "latestPrice": 114.69,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/BIFO",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 35,
+        "totalDividendPerShare": 3.5
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 25,
+        "totalDividendPerShare": 2.5
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-25",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "35%(F) (D)",
+        "bookClosure": "16/10/2025 - 23/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 35,
+        "dividendPerShare": 3.5
+      },
+      {
+        "announcedAt": "2026-02-17",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "25%(i) (D)",
+        "bookClosure": "03/03/2026 - 05/03/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      }
+    ]
+  },
+  {
+    "symbol": "BIPL",
+    "name": "BankIslami Pakistan Limited",
+    "latestPrice": 28.7,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/BIPL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 12.5,
+        "totalDividendPerShare": 1.25
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 27.5,
+        "totalDividendPerShare": 2.75
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-27",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "12.50%(F) (D)",
+        "bookClosure": "20/03/2025 - 27/03/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 12.5,
+        "dividendPerShare": 1.25
+      },
+      {
+        "announcedAt": "2025-08-21",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "15%(i) (D)",
+        "bookClosure": "02/09/2025 - 04/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 15,
+        "dividendPerShare": 1.5
+      },
+      {
+        "announcedAt": "2026-02-18",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "12.50%(F) (D)",
+        "bookClosure": "20/03/2026 - 27/03/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 12.5,
+        "dividendPerShare": 1.25
+      }
+    ]
+  },
+  {
+    "symbol": "BRRG",
+    "name": "B.R.R Guardian Limited",
+    "latestPrice": 41.23,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/BRRG",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 5,
+        "totalDividendPerShare": 0.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-10-27",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "5%(F) (D)",
+        "bookClosure": "21/11/2025 - 27/11/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 5,
+        "dividendPerShare": 0.5
+      }
+    ]
+  },
+  {
+    "symbol": "BWHL",
+    "name": "Baluchistan Wheels Limited",
+    "latestPrice": 200,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/BWHL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 130,
+        "totalDividendPerShare": 13
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-04",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "60%(ii) (D)",
+        "bookClosure": "12/02/2025 - 14/02/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 60,
+        "dividendPerShare": 6
+      },
+      {
+        "announcedAt": "2025-09-08",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "70%(F) (D)",
+        "bookClosure": "26/09/2025 - 04/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 70,
+        "dividendPerShare": 7
+      },
+      {
+        "announcedAt": "2026-02-10",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "100%(i) (D)",
+        "bookClosure": "18/02/2026 - 19/02/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      }
+    ]
+  },
+  {
+    "symbol": "CHCC",
+    "name": "Cherat Cement Company Limited",
+    "latestPrice": 274.16,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/CHCC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 55,
+        "totalDividendPerShare": 5.5
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 15,
+        "totalDividendPerShare": 1.5
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-21",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "15%(i) (D)",
+        "bookClosure": "03/03/2025 - 04/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 15,
+        "dividendPerShare": 1.5
+      },
+      {
+        "announcedAt": "2025-08-21",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "40%(F) (D)",
+        "bookClosure": "02/10/2025 - 09/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      },
+      {
+        "announcedAt": "2026-02-18",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "15%(i) (D)",
+        "bookClosure": "28/02/2026 - 02/03/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 15,
+        "dividendPerShare": 1.5
+      }
+    ]
+  },
+  {
+    "symbol": "CPHL",
+    "name": "Citi Pharma Ltd.",
+    "latestPrice": 83.71,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/CPHL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 35,
+        "totalDividendPerShare": 3.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-10-02",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "35%(F) (D)",
+        "bookClosure": "21/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 35,
+        "dividendPerShare": 3.5
+      }
+    ]
+  },
+  {
+    "symbol": "CPPL",
+    "name": "Cherat Packaging Limited",
+    "latestPrice": 79.44,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/CPPL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 30,
+        "totalDividendPerShare": 3
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 10,
+        "totalDividendPerShare": 1
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-20",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "10%(i) (D)",
+        "bookClosure": "28/02/2025 - 03/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      },
+      {
+        "announcedAt": "2025-08-20",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "20%(F) (D)",
+        "bookClosure": "15/10/2025 - 23/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      },
+      {
+        "announcedAt": "2026-02-19",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "10%(i) (D)",
+        "bookClosure": "03/03/2026 - 04/03/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      }
+    ]
+  },
+  {
+    "symbol": "CSAP",
+    "name": "Crescent Steel & Allied Products Limited",
+    "latestPrice": 93.38,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/CSAP",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 3,
+        "intervalLabel": "Triannual",
+        "totalDividendPercent": 75,
+        "totalDividendPerShare": 7.5
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-01-31",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "20%(i) (D)",
+        "bookClosure": "14/02/2025 - 18/02/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      },
+      {
+        "announcedAt": "2025-04-29",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "30%(ii) (D)",
+        "bookClosure": "13/05/2025 - 15/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 30,
+        "dividendPerShare": 3
+      },
+      {
+        "announcedAt": "2025-08-01",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "25%(F) (D)",
+        "bookClosure": "22/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      },
+      {
+        "announcedAt": "2026-02-06",
+        "periodLabel": "30/12/2025(HYR)",
+        "periodEnd": "30/12/2025",
+        "detail": "20%(i) (D)",
+        "bookClosure": "18/02/2026 - 20/02/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "DCR",
+    "name": "Dolmen City REIT",
+    "latestPrice": 36.05,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/DCR",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 11,
+        "totalDividendPerShare": 1.1
+      },
+      "fy26": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 12.6,
+        "totalDividendPerShare": 1.26
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-01-07",
+        "periodLabel": "-",
+        "periodEnd": "2025-01-07",
+        "detail": "5.5%(ii) (D)",
+        "bookClosure": "17/01/2025 - 19/01/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 5.5,
+        "dividendPerShare": 0.55
+      },
+      {
+        "announcedAt": "2025-03-27",
+        "periodLabel": "-",
+        "periodEnd": "2025-03-27",
+        "detail": "5.5%(i) (D)",
+        "bookClosure": "10/04/2025 - 12/04/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 5.5,
+        "dividendPerShare": 0.55
+      },
+      {
+        "announcedAt": "2025-10-10",
+        "periodLabel": "-",
+        "periodEnd": "2025-10-10",
+        "detail": "6.30%(i) (D)",
+        "bookClosure": "22/10/2025 - 21/10/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 6.3,
+        "dividendPerShare": 0.63
+      },
+      {
+        "announcedAt": "2025-12-18",
+        "periodLabel": "-",
+        "periodEnd": "2025-12-18",
+        "detail": "6.3%(ii) (D)",
+        "bookClosure": "30/12/2025 - 01/01/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 6.3,
+        "dividendPerShare": 0.63
+      }
+    ]
+  },
+  {
+    "symbol": "DGKC",
+    "name": "D.G. Khan Cement Company Limited",
+    "latestPrice": 187.11,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/DGKC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-28",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "20%(F) (D)",
+        "bookClosure": "15/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "DOL",
+    "name": "Descon Oxychem Limited",
+    "latestPrice": 29.46,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/DOL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 40,
+        "totalDividendPerShare": 4
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-19",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "20%(i) (D)",
+        "bookClosure": "05/03/2025 - 07/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      },
+      {
+        "announcedAt": "2025-09-04",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "20%(F) (D)",
+        "bookClosure": "15/10/2025 - 22/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      },
+      {
+        "announcedAt": "2026-02-25",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "20%(i) (D)",
+        "bookClosure": "10/03/2025 - 12/03/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "DYNO",
+    "name": "Dynea Pakistan Limited",
+    "latestPrice": 315.16,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/DYNO",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 300,
+        "totalDividendPerShare": 30
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 125,
+        "totalDividendPerShare": 12.5
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-21",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "100%(i) (D)",
+        "bookClosure": "05/03/2025 - 07/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      },
+      {
+        "announcedAt": "2025-09-15",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "200%(F) (D)",
+        "bookClosure": "11/10/2025 - 20/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 200,
+        "dividendPerShare": 20
+      },
+      {
+        "announcedAt": "2026-02-25",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "125%(i) (D)",
+        "bookClosure": "09/03/2025 - 11/03/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 125,
+        "dividendPerShare": 12.5
+      }
+    ]
+  },
+  {
+    "symbol": "ECOP",
+    "name": "Ecopack Limited",
+    "latestPrice": 46.06,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ECOP",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "20%(F) (D)",
+        "bookClosure": "15/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "EFERT",
+    "name": "Engro Fertilizers Limited",
+    "latestPrice": 204.53,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/EFERT",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 80,
+        "totalDividendPerShare": 8
+      },
+      "fy25": {
+        "payoutCount": 4,
+        "intervalLabel": "Quarterly",
+        "totalDividendPercent": 150,
+        "totalDividendPerShare": 15
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-10",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "80%(F) (D)",
+        "bookClosure": "18/03/2025 - 24/03/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 80,
+        "dividendPerShare": 8
+      },
+      {
+        "announcedAt": "2025-04-22",
+        "periodLabel": "31/03/2025(IQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "22.5%(i) (D)",
+        "bookClosure": "05/05/2025 - 06/06/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 22.5,
+        "dividendPerShare": 2.25
+      },
+      {
+        "announcedAt": "2025-07-30",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "42.50%(ii) (D)",
+        "bookClosure": "12/08/2025 - 14/08/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 42.5,
+        "dividendPerShare": 4.25
+      },
+      {
+        "announcedAt": "2025-10-15",
+        "periodLabel": "30/09/2025(IIIQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "45%(iii) (D)",
+        "bookClosure": "28/10/2025 - 29/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 45,
+        "dividendPerShare": 4.5
+      },
+      {
+        "announcedAt": "2026-02-12",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "40%(F) (D)",
+        "bookClosure": "17/03/2026 - 25/03/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      }
+    ]
+  },
+  {
+    "symbol": "ELSM",
+    "name": "Ellcot Spinning Mills Limited",
+    "latestPrice": 114.82,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ELSM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 40,
+        "totalDividendPerShare": 4
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-30",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "40%(F) (D)",
+        "bookClosure": "22/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      }
+    ]
+  },
+  {
+    "symbol": "EPQL",
+    "name": "Engro Powergen Qadirpur Limited",
+    "latestPrice": 23.89,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/EPQL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy26": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 17.5,
+        "totalDividendPerShare": 1.75
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-04-15",
+        "periodLabel": "31/03/2025(IQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "75%(i) (D)",
+        "bookClosure": "29/04/2025 - 30/04/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 75,
+        "dividendPerShare": 7.5
+      },
+      {
+        "announcedAt": "2025-07-30",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "25%(ii) (D)",
+        "bookClosure": "12/08/2025 - 13/08/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      },
+      {
+        "announcedAt": "2025-10-22",
+        "periodLabel": "30/09/2025(IQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "5%(iii) (D)",
+        "bookClosure": "04/11/2025 - 05/11/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 5,
+        "dividendPerShare": 0.5
+      },
+      {
+        "announcedAt": "2026-02-06",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "12.50%(F) (D)",
+        "bookClosure": "19/03/2026 - 25/03/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 12.5,
+        "dividendPerShare": 1.25
+      }
+    ]
+  },
+  {
+    "symbol": "EXIDE",
+    "name": "Exide Pakistan Limited",
+    "latestPrice": 588.99,
+    "fiscalYearEndLabel": "March",
+    "fiscalYearEndMonth": 3,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/EXIDE",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-06-30",
+        "periodLabel": "31/03/2025(YR)",
+        "periodEnd": "31/03/2025",
+        "detail": "100%(F) (D)",
+        "bookClosure": "23/07/2025 - 29/07/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      }
+    ]
+  },
+  {
+    "symbol": "FABL",
+    "name": "Faysal Bank Limited",
+    "latestPrice": 91.24,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/FABL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 25,
+        "totalDividendPerShare": 2.5
+      },
+      "fy25": {
+        "payoutCount": 4,
+        "intervalLabel": "Quarterly",
+        "totalDividendPercent": 65,
+        "totalDividendPerShare": 6.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-20",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "25%(F) (D)",
+        "bookClosure": "19/03/2025 - 25/03/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      },
+      {
+        "announcedAt": "2025-04-24",
+        "periodLabel": "31/03/2025(IQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "15% (I) (D)",
+        "bookClosure": "08/05/2025 - 10/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 15,
+        "dividendPerShare": 1.5
+      },
+      {
+        "announcedAt": "2025-08-28",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "15%(ii) (D)",
+        "bookClosure": "11/09/2025 - 13/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 15,
+        "dividendPerShare": 1.5
+      },
+      {
+        "announcedAt": "2025-10-23",
+        "periodLabel": "30/09/2025(IIIQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "15%(iii) (D)",
+        "bookClosure": "06/11/2025 - 08/11/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 15,
+        "dividendPerShare": 1.5
+      },
+      {
+        "announcedAt": "2026-02-19",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "20%(F) (D)",
+        "bookClosure": "20/03/2026 - 26/03/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "FATIMA",
+    "name": "Fatima Fertilizer Company Limited",
+    "latestPrice": 141.55,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/FATIMA",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 42.5,
+        "totalDividendPerShare": 4.25
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 35,
+        "totalDividendPerShare": 3.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-03-14",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "42.5%(F) (D)",
+        "bookClosure": "11/04/2025 - 18/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 42.5,
+        "dividendPerShare": 4.25
+      },
+      {
+        "announcedAt": "2025-08-27",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "35%(i) (D)",
+        "bookClosure": "09/09/2025 - 10/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 35,
+        "dividendPerShare": 3.5
+      }
+    ]
+  },
+  {
+    "symbol": "FCCL",
+    "name": "Fauji Cement Company Limited",
+    "latestPrice": 50.12,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/FCCL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 12.5,
+        "totalDividendPerShare": 1.25
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-11",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "12.50%(F) (D)",
+        "bookClosure": "24/09/2025 - 30/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 12.5,
+        "dividendPerShare": 1.25
+      }
+    ]
+  },
+  {
+    "symbol": "FCEPL",
+    "name": "Frieslandcampina Engro Pakistan Limited",
+    "latestPrice": 78.35,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/FCEPL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 28,
+        "totalDividendPerShare": 2.8
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 35,
+        "totalDividendPerShare": 3.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-14",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "28%(F) (D)",
+        "bookClosure": "15/04/2025 - 21/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 28,
+        "dividendPerShare": 2.8
+      },
+      {
+        "announcedAt": "2026-02-17",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "35%(F) (D)",
+        "bookClosure": "17/04/2026 - 24/04/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 35,
+        "dividendPerShare": 3.5
+      }
+    ]
+  },
+  {
+    "symbol": "FCL",
+    "name": "Fast Cables Limited",
+    "latestPrice": 22.26,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/FCL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 5,
+        "totalDividendPerShare": 0.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "5%(F) (D)",
+        "bookClosure": "20/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 5,
+        "dividendPerShare": 0.5
+      }
+    ]
+  },
+  {
+    "symbol": "FECTC",
+    "name": "Fecto Cement Limited",
+    "latestPrice": 98.76,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/FECTC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-25",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "20%(F) (D)",
+        "bookClosure": "17/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "FEROZ",
+    "name": "Ferozsons Laboratories Limited",
+    "latestPrice": 399.99,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/FEROZ",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 40,
+        "totalDividendPerShare": 4
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-23",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "40%(F) (D)",
+        "bookClosure": "18/10/2025 - 25/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      }
+    ]
+  },
+  {
+    "symbol": "FFC",
+    "name": "Fauji Fertilizer Company Limited",
+    "latestPrice": 532.35,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/FFC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 210,
+        "totalDividendPerShare": 21
+      },
+      "fy25": {
+        "payoutCount": 3,
+        "intervalLabel": "Triannual",
+        "totalDividendPercent": 285,
+        "totalDividendPerShare": 28.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-01-29",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "210%(F) (D)",
+        "bookClosure": "23/03/2025 - 25/03/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 210,
+        "dividendPerShare": 21
+      },
+      {
+        "announcedAt": "2025-04-28",
+        "periodLabel": "31/03/2025(IQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "70%(i) (D)",
+        "bookClosure": "11/05/2025 - 13/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 70,
+        "dividendPerShare": 7
+      },
+      {
+        "announcedAt": "2025-07-29",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "120%(ii) (D)",
+        "bookClosure": "11/08/2025 - 13/08/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 120,
+        "dividendPerShare": 12
+      },
+      {
+        "announcedAt": "2025-10-23",
+        "periodLabel": "30/09/2025(IIIQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "95%(iii) (D)",
+        "bookClosure": "05/11/2025 - 07/11/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 95,
+        "dividendPerShare": 9.5
+      }
+    ]
+  },
+  {
+    "symbol": "FIMM",
+    "name": "First Imrooz Modaraba",
+    "latestPrice": 200,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/FIMM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 150,
+        "totalDividendPerShare": 15
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "150%(F) (D)",
+        "bookClosure": "14/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 150,
+        "dividendPerShare": 15
+      }
+    ]
+  },
+  {
+    "symbol": "FTMM",
+    "name": "First Treet Manufacturing Modaraba",
+    "latestPrice": 12.95,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/FTMM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 15,
+        "totalDividendPerShare": 1.5
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-11-19",
+        "periodLabel": "-",
+        "periodEnd": "2025-11-19",
+        "detail": "15%(i) (D)",
+        "bookClosure": "27/11/2025 - 29/11/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 15,
+        "dividendPerShare": 1.5
+      }
+    ]
+  },
+  {
+    "symbol": "GAL",
+    "name": "Ghandhara Automobiles Limited",
+    "latestPrice": 466.94,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/GAL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "100%(F) (D)",
+        "bookClosure": "17/10/2025 - 25/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      }
+    ]
+  },
+  {
+    "symbol": "GCIL",
+    "name": "Ghani Chemical Industries Limited",
+    "latestPrice": 30.7,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/GCIL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 6,
+        "totalDividendPerShare": 0.6
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-28",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "6%(i) (D)",
+        "bookClosure": "14/03/2025 - 16/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 6,
+        "dividendPerShare": 0.6
+      }
+    ]
+  },
+  {
+    "symbol": "GEMBCEM",
+    "name": "Burj Clean Energy Modaraba(GEM)",
+    "latestPrice": 11.5,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/GEMBCEM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 3.9,
+        "totalDividendPerShare": 0.39
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "3.90%(F) (D)",
+        "bookClosure": "21/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 3.9,
+        "dividendPerShare": 0.39
+      }
+    ]
+  },
+  {
+    "symbol": "GEMPAPL",
+    "name": "Pak Agro Packaging Limited(GEM)",
+    "latestPrice": 9.75,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/GEMPAPL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 5,
+        "totalDividendPerShare": 0.5
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2026-03-02",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "5%(i) (D)",
+        "bookClosure": "10/03/2026 - 12/03/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 5,
+        "dividendPerShare": 0.5
+      }
+    ]
+  },
+  {
+    "symbol": "GHGL",
+    "name": "Ghani Glass Limited",
+    "latestPrice": 36.92,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/GHGL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 15,
+        "totalDividendPerShare": 1.5
+      },
+      "fy26": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 15,
+        "totalDividendPerShare": 1.5
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-30",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "15%(F) (D)",
+        "bookClosure": "22/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 15,
+        "dividendPerShare": 1.5
+      },
+      {
+        "announcedAt": "2025-10-28",
+        "periodLabel": "30/09/2025(IQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "5%(i) (D)",
+        "bookClosure": "11/11/2025 - 13/13/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 5,
+        "dividendPerShare": 0.5
+      },
+      {
+        "announcedAt": "2026-02-25",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "10%(ii) (D)",
+        "bookClosure": "11/03/2025 - 13/03/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      }
+    ]
+  },
+  {
+    "symbol": "GHNI",
+    "name": "Ghandhara Industries Limited",
+    "latestPrice": 846.44,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/GHNI",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "100%(F) (D)",
+        "bookClosure": "17/10/2025 - 25/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      }
+    ]
+  },
+  {
+    "symbol": "GIL",
+    "name": "Good Luck Industries Ltd.",
+    "latestPrice": 1751.02,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/GIL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 30,
+        "totalDividendPerShare": 3
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-11",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "30%(F) (D)",
+        "bookClosure": "04/10/2025 - 11/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 30,
+        "dividendPerShare": 3
+      }
+    ]
+  },
+  {
+    "symbol": "GLAXO",
+    "name": "GlaxoSmithKline Pakistan Limited",
+    "latestPrice": 387.15,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/GLAXO",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 50,
+        "totalDividendPerShare": 5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-03-24",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "100%(F) (D)",
+        "bookClosure": "22/04/2025 - 28/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      },
+      {
+        "announcedAt": "2025-08-26",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "50%(i) (D)",
+        "bookClosure": "09/09/2025 - 11/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      }
+    ]
+  },
+  {
+    "symbol": "GOC",
+    "name": "GOC (Pak) Limited.",
+    "latestPrice": 93.52,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/GOC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 10,
+        "totalDividendPerShare": 1
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "10%(F) (D)",
+        "bookClosure": "15/10/2025 - 22/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      }
+    ]
+  },
+  {
+    "symbol": "GVGL",
+    "name": "Ghani Value Glass Limited",
+    "latestPrice": 59.49,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/GVGL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 10,
+        "totalDividendPerShare": 1
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-25",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "10%(i) (D)",
+        "bookClosure": "11/03/2025 - 13/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      },
+      {
+        "announcedAt": "2025-04-29",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "10%9(ii) (D)",
+        "bookClosure": "13/05/2025 - 15/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      },
+      {
+        "announcedAt": "2025-10-28",
+        "periodLabel": "30/09/2025(IQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "10%(i) (D)",
+        "bookClosure": "11/11/2025 - 13/11/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      }
+    ]
+  },
+  {
+    "symbol": "GWLC",
+    "name": "Gharibwal Cement Limited",
+    "latestPrice": 49.02,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/GWLC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 10,
+        "totalDividendPerShare": 1
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 5,
+        "totalDividendPerShare": 0.5
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-04-28",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "10%(i) (D)",
+        "bookClosure": "09/05/2025 - 13/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      },
+      {
+        "announcedAt": "2025-10-27",
+        "periodLabel": "30/09/2025(IQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "5%(i) (D)",
+        "bookClosure": "06/07/2025 - 07/11/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 5,
+        "dividendPerShare": 0.5
+      }
+    ]
+  },
+  {
+    "symbol": "HABSM",
+    "name": "Habib Sugar Mills Limited",
+    "latestPrice": 72.9,
+    "fiscalYearEndLabel": "September",
+    "fiscalYearEndMonth": 9,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/HABSM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 120,
+        "totalDividendPerShare": 12
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 120,
+        "totalDividendPerShare": 12
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2024-12-11",
+        "periodLabel": "30/09/2024(YR)",
+        "periodEnd": "30/09/2024",
+        "detail": "120%(F) (D)",
+        "bookClosure": "14/01/2025 - 23/01/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 120,
+        "dividendPerShare": 12
+      },
+      {
+        "announcedAt": "2025-12-17",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "120%(F) (D)",
+        "bookClosure": "16/01/2026 - 27/01/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 120,
+        "dividendPerShare": 12
+      }
+    ]
+  },
+  {
+    "symbol": "HAFL",
+    "name": "Hafiz Limited",
+    "latestPrice": 419.45,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/HAFL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 25,
+        "totalDividendPerShare": 2.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-10-08",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "25% (F) (D)",
+        "bookClosure": "16/10/2025 - 23/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      }
+    ]
+  },
+  {
+    "symbol": "HALEON",
+    "name": "Haleon Pakistan Limited",
+    "latestPrice": 786.21,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/HALEON",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 150,
+        "totalDividendPerShare": 15
+      },
+      "fy25": {
+        "payoutCount": 3,
+        "intervalLabel": "Triannual",
+        "totalDividendPercent": 300,
+        "totalDividendPerShare": 30
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-06",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "150%(F) (D)",
+        "bookClosure": "13/03/2025 - 20/03/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 150,
+        "dividendPerShare": 15
+      },
+      {
+        "announcedAt": "2025-08-26",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "100%(i) (D)",
+        "bookClosure": "04/09/2025 - 05/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      },
+      {
+        "announcedAt": "2025-10-27",
+        "periodLabel": "30/09/2025(IIIQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "50%(ii) (D)",
+        "bookClosure": "06/11/2025 - 07/11/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      },
+      {
+        "announcedAt": "2026-03-03",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "150%(F) (D)",
+        "bookClosure": "22/04/2026 - 28/04/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 150,
+        "dividendPerShare": 15
+      }
+    ]
+  },
+  {
+    "symbol": "HCAR",
+    "name": "Honda Atlas Cars (Pakistan) Limited",
+    "latestPrice": 183.23,
+    "fiscalYearEndLabel": "March",
+    "fiscalYearEndMonth": 3,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/HCAR",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 80,
+        "totalDividendPerShare": 8
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-05-23",
+        "periodLabel": "31/03/2025(YR)",
+        "periodEnd": "31/03/2025",
+        "detail": "80%(F) (D)",
+        "bookClosure": "12/06/2025 - 24/06/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 80,
+        "dividendPerShare": 8
+      }
+    ]
+  },
+  {
+    "symbol": "HINOON",
+    "name": "Highnoon Laboratories Limited",
+    "latestPrice": 964.97,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/HINOON",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 400,
+        "totalDividendPerShare": 40
+      },
+      "fy25": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-03-26",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "400%(F) (D)",
+        "bookClosure": "22/04/2025 - 29/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 400,
+        "dividendPerShare": 40
+      }
+    ]
+  },
+  {
+    "symbol": "HPL",
+    "name": "Hoechst Pakistan Limited",
+    "latestPrice": 4013.21,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/HPL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 2400,
+        "totalDividendPerShare": 240
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-13",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "500%(i) (D)",
+        "bookClosure": "26/08/2025 - 27/08/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 500,
+        "dividendPerShare": 50
+      },
+      {
+        "announcedAt": "2026-02-18",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "1900%(F) (D)",
+        "bookClosure": "02/04/2026 - 08/04/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 1900,
+        "dividendPerShare": 190
+      }
+    ]
+  },
+  {
+    "symbol": "HUBC",
+    "name": "The Hub Power Company Limited",
+    "latestPrice": 228,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/HUBC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 150,
+        "totalDividendPerShare": 15
+      },
+      "fy26": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-26",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "50%(i) (D)",
+        "bookClosure": "11/03/2025 - 13/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      },
+      {
+        "announcedAt": "2025-09-03",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "100%(F) (D)",
+        "bookClosure": "08/10/2025 - 15/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      },
+      {
+        "announcedAt": "2025-10-30",
+        "periodLabel": "30/09/2025(IQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "50%(i) (D)",
+        "bookClosure": "12/11/2025 - 14/11/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      },
+      {
+        "announcedAt": "2026-02-24",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "50%(ii) (D)",
+        "bookClosure": "09/03/2025 - 11/03/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      }
+    ]
+  },
+  {
+    "symbol": "ICL",
+    "name": "Ittehad Chemicals Limted",
+    "latestPrice": 153,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ICL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 40,
+        "totalDividendPerShare": 4
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 10,
+        "totalDividendPerShare": 1
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-14",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "20%(i) (D)",
+        "bookClosure": "01/03/2025 - 03/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      },
+      {
+        "announcedAt": "2025-09-19",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "20%(F) (D)",
+        "bookClosure": "21/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      },
+      {
+        "announcedAt": "2026-02-17",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "10%(i) (D)",
+        "bookClosure": "03/03/2026 - 05/03/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      }
+    ]
+  },
+  {
+    "symbol": "ILP",
+    "name": "Interloop Limited",
+    "latestPrice": 81.06,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ILP",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 10,
+        "totalDividendPerShare": 1
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-10",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "10%(F) (D)",
+        "bookClosure": "03/10/2025 - 10/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      },
+      {
+        "announcedAt": "2026-02-06",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "20%(i) (D)",
+        "bookClosure": "17/02/2026 - 18/02/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "IMAGE",
+    "name": "Image Pakistan Limited",
+    "latestPrice": 23.44,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/IMAGE",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-04-28",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "10%(I) (D)",
+        "bookClosure": "13/05/2025 - 15/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      },
+      {
+        "announcedAt": "2025-10-07",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "10%(F) (D)",
+        "bookClosure": "23/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      }
+    ]
+  },
+  {
+    "symbol": "INIL",
+    "name": "International Industries Limited",
+    "latestPrice": 176.86,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/INIL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 40,
+        "totalDividendPerShare": 4
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-22",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "40%(F) (D)",
+        "bookClosure": "18/09/2025 - 26/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      }
+    ]
+  },
+  {
+    "symbol": "IPAK",
+    "name": "International Packaging Films Limited",
+    "latestPrice": 30.16,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/IPAK",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 6,
+        "totalDividendPerShare": 0.6
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-18",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "6%(F) (D)",
+        "bookClosure": "17/10/2025 - 23/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 6,
+        "dividendPerShare": 0.6
+      }
+    ]
+  },
+  {
+    "symbol": "IREIT",
+    "name": "Image Reit",
+    "latestPrice": 8.19,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/IREIT",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 2,
+        "totalDividendPerShare": 0.2
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2026-02-26",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "2%(i) (D)",
+        "bookClosure": "06/03/2026 - 09/03/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 2,
+        "dividendPerShare": 0.2
+      }
+    ]
+  },
+  {
+    "symbol": "ISIL",
+    "name": "Ismail Industries Limited",
+    "latestPrice": 1899.17,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ISIL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 50,
+        "totalDividendPerShare": 5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "50%(F) (D)",
+        "bookClosure": "02/10/2025 - 08/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      }
+    ]
+  },
+  {
+    "symbol": "ISL",
+    "name": "International Steels Limited",
+    "latestPrice": 85.87,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ISL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 25,
+        "totalDividendPerShare": 2.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-20",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "25%(F) (D)",
+        "bookClosure": "17/09/2025 - 24/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      }
+    ]
+  },
+  {
+    "symbol": "JDWS",
+    "name": "JDW Sugar Mills Limited",
+    "latestPrice": 853.58,
+    "fiscalYearEndLabel": "September",
+    "fiscalYearEndMonth": 9,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/JDWS",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 300,
+        "totalDividendPerShare": 30
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 450,
+        "totalDividendPerShare": 45
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-01-03",
+        "periodLabel": "30/09/2024(YR)",
+        "periodEnd": "30/09/2024",
+        "detail": "300%(F) (D)",
+        "bookClosure": "22/01/2025 - 28/01/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 300,
+        "dividendPerShare": 30
+      },
+      {
+        "announcedAt": "2025-07-28",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "200%(I) (D)",
+        "bookClosure": "05/08/2025 - 07/08/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 200,
+        "dividendPerShare": 20
+      },
+      {
+        "announcedAt": "2025-12-22",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "250%(F) (D)",
+        "bookClosure": "16/01/2026 - 24/01/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 250,
+        "dividendPerShare": 25
+      }
+    ]
+  },
+  {
+    "symbol": "JKSM",
+    "name": "J.K. Spinning Mills Limited",
+    "latestPrice": 174.98,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/JKSM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-17",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "20%(F) (D)",
+        "bookClosure": "17/10/2025 - 24/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "JVDC",
+    "name": "Javedan Corporation Limited",
+    "latestPrice": 134.81,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/JVDC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 50,
+        "totalDividendPerShare": 5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-09",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "50%(F) (D)",
+        "bookClosure": "10/10/2025 - 18/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      }
+    ]
+  },
+  {
+    "symbol": "KOHTM",
+    "name": "Kohat Textile Mills Limited",
+    "latestPrice": 54.41,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/KOHTM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-04-29",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "10%(i) (D)",
+        "bookClosure": "06/05/2025 - 08/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      },
+      {
+        "announcedAt": "2025-09-30",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "10%(F) (D)",
+        "bookClosure": "18/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      }
+    ]
+  },
+  {
+    "symbol": "KTML",
+    "name": "Kohinoor Textile Mills Limited",
+    "latestPrice": 48.74,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/KTML",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-08",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "20%(F) (D)",
+        "bookClosure": "10/10/2025 - 16/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "LCI",
+    "name": "Lucky Core Industries Limited",
+    "latestPrice": 245.97,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/LCI",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 650,
+        "totalDividendPerShare": 65
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-01-28",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "340%(i) (D)",
+        "bookClosure": "10/02/2025 - 12/02/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 340,
+        "dividendPerShare": 34
+      },
+      {
+        "announcedAt": "2025-08-01",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "310%(F) (D)",
+        "bookClosure": "20/09/2025 - 26/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 310,
+        "dividendPerShare": 31
+      }
+    ]
+  },
+  {
+    "symbol": "LUCK",
+    "name": "Lucky Cement Limited",
+    "latestPrice": 431.12,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/LUCK",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 200,
+        "totalDividendPerShare": 20
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-11",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "200%(F) (D)",
+        "bookClosure": "19/09/2025 - 26/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 200,
+        "dividendPerShare": 20
+      }
+    ]
+  },
+  {
+    "symbol": "MACFL",
+    "name": "MACPAC Films Limited",
+    "latestPrice": 23.42,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/MACFL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 5,
+        "totalDividendPerShare": 0.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-01",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "5%(F) (D)",
+        "bookClosure": "17/10/2025 - 24/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 5,
+        "dividendPerShare": 0.5
+      }
+    ]
+  },
+  {
+    "symbol": "MACTER",
+    "name": "Macter International Limited",
+    "latestPrice": 299.98,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/MACTER",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 18,
+        "totalDividendPerShare": 1.8
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-04-28",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "18%(i) (D)",
+        "bookClosure": "07/05/2025 - 09/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 18,
+        "dividendPerShare": 1.8
+      }
+    ]
+  },
+  {
+    "symbol": "MARI",
+    "name": "Mari Energies Limited",
+    "latestPrice": 666.02,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/MARI",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 217,
+        "totalDividendPerShare": 21.7
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-11",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "217%(F) (D)",
+        "bookClosure": "22/09/2025 - 26/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 217,
+        "dividendPerShare": 21.7
+      }
+    ]
+  },
+  {
+    "symbol": "MEBL",
+    "name": "Meezan Bank Limited",
+    "latestPrice": 489.34,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/MEBL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 70,
+        "totalDividendPerShare": 7
+      },
+      "fy25": {
+        "payoutCount": 4,
+        "intervalLabel": "Quarterly",
+        "totalDividendPercent": 280,
+        "totalDividendPerShare": 28
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-13",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "70%(F) (D)",
+        "bookClosure": "24/03/2025 - 27/03/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 70,
+        "dividendPerShare": 7
+      },
+      {
+        "announcedAt": "2025-04-21",
+        "periodLabel": "31/03/2025(IQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "70%(i) (D)",
+        "bookClosure": "02/05/2025 - 04/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 70,
+        "dividendPerShare": 7
+      },
+      {
+        "announcedAt": "2025-08-13",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "70%(ii) (D)",
+        "bookClosure": "27/08/2025 - 28/08/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 70,
+        "dividendPerShare": 7
+      },
+      {
+        "announcedAt": "2025-10-27",
+        "periodLabel": "30/09/2025(IIIQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "70%(iii) (D)",
+        "bookClosure": "05/11/2025 - 07/11/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 70,
+        "dividendPerShare": 7
+      },
+      {
+        "announcedAt": "2026-02-09",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "70%(F) (D)",
+        "bookClosure": "25/03/2026 - 27/03/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 70,
+        "dividendPerShare": 7
+      }
+    ]
+  },
+  {
+    "symbol": "MTL",
+    "name": "Millat Tractors Limited",
+    "latestPrice": 517.19,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/MTL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 600,
+        "totalDividendPerShare": 60
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 200,
+        "totalDividendPerShare": 20
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-19",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "450%(i) (D)",
+        "bookClosure": "05/03/2025 - 07/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 450,
+        "dividendPerShare": 45
+      },
+      {
+        "announcedAt": "2025-09-15",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "150%(F) (D)",
+        "bookClosure": "17/10/2025 - 24/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 150,
+        "dividendPerShare": 15
+      },
+      {
+        "announcedAt": "2026-02-17",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "200%(i) (D)",
+        "bookClosure": "04/03/2026 - 06/04/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 200,
+        "dividendPerShare": 20
+      }
+    ]
+  },
+  {
+    "symbol": "NATF",
+    "name": "National Foods Limited",
+    "latestPrice": 373.81,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/NATF",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 3,
+        "intervalLabel": "Triannual",
+        "totalDividendPercent": 180,
+        "totalDividendPerShare": 18
+      },
+      "fy26": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 420,
+        "totalDividendPerShare": 42
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-25",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "40%(i) (D)",
+        "bookClosure": "07/03/2025 - 11/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      },
+      {
+        "announcedAt": "2025-04-23",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "40%(i) (D)",
+        "bookClosure": "07/05/2025 - 09/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      },
+      {
+        "announcedAt": "2025-09-09",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "100%(F) (D)",
+        "bookClosure": "13/10/2025 - 20/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      },
+      {
+        "announcedAt": "2025-10-20",
+        "periodLabel": "30/09/2025(IQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "360%i) (D)",
+        "bookClosure": "-",
+        "fiscalYear": 2026,
+        "dividendPercent": 360,
+        "dividendPerShare": 36
+      },
+      {
+        "announcedAt": "2026-02-25",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "60%(ii) (D)",
+        "bookClosure": "11/03/2025 - 13/03/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 60,
+        "dividendPerShare": 6
+      }
+    ]
+  },
+  {
+    "symbol": "NESTLE",
+    "name": "Nestle Pakistan Limited",
+    "latestPrice": 7374.65,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/NESTLE",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 300,
+        "totalDividendPerShare": 30
+      },
+      "fy25": {
+        "payoutCount": 3,
+        "intervalLabel": "Triannual",
+        "totalDividendPercent": 5570,
+        "totalDividendPerShare": 557
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-13",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "300%(F) (D)",
+        "bookClosure": "15/04/2025 - 22/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 300,
+        "dividendPerShare": 30
+      },
+      {
+        "announcedAt": "2025-07-24",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "2230%(i) (D)",
+        "bookClosure": "06/08/2025 - 08/08/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 2230,
+        "dividendPerShare": 223
+      },
+      {
+        "announcedAt": "2025-10-16",
+        "periodLabel": "30/09/2025(IIIQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "780%(ii) (D)",
+        "bookClosure": "27/10/2025 - 29/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 780,
+        "dividendPerShare": 78
+      },
+      {
+        "announcedAt": "2026-02-19",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "2560%(F) (D)",
+        "bookClosure": "10/04/2026 - 17/04/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 2560,
+        "dividendPerShare": 256
+      }
+    ]
+  },
+  {
+    "symbol": "NML",
+    "name": "Nishat Mills Limited",
+    "latestPrice": 157.09,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/NML",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-30",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "20%(F) (D)",
+        "bookClosure": "21/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "OGDC",
+    "name": "Oil & Gas Development Company Limited",
+    "latestPrice": 321.11,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/OGDC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 3,
+        "intervalLabel": "Triannual",
+        "totalDividendPercent": 120.5,
+        "totalDividendPerShare": 12.05
+      },
+      "fy26": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 77.5,
+        "totalDividendPerShare": 7.75
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-28",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "40.50% (D)",
+        "bookClosure": "12/03/2025 - 14/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 40.5,
+        "dividendPerShare": 4.05
+      },
+      {
+        "announcedAt": "2025-04-30",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "30%(iii) (D)",
+        "bookClosure": "13/05/2025 - 15/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 30,
+        "dividendPerShare": 3
+      },
+      {
+        "announcedAt": "2025-09-23",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "50%(F) (D)",
+        "bookClosure": "23/10/2025 - 24/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      },
+      {
+        "announcedAt": "2025-10-29",
+        "periodLabel": "30/09/2025(IQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "35%(i) (D)",
+        "bookClosure": "11/11/2025 - 12/11/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 35,
+        "dividendPerShare": 3.5
+      },
+      {
+        "announcedAt": "2026-02-23",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "42.50%(ii) (D)",
+        "bookClosure": "07/03/2026 - 09/03/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 42.5,
+        "dividendPerShare": 4.25
+      }
+    ]
+  },
+  {
+    "symbol": "OLPM",
+    "name": "OLP Modaraba",
+    "latestPrice": 22.99,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/OLPM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 25,
+        "totalDividendPerShare": 2.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-25",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "25%(F) (D)",
+        "bookClosure": "21/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      }
+    ]
+  },
+  {
+    "symbol": "PAKD",
+    "name": "Pak Datacom Limited",
+    "latestPrice": 123.32,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/PAKD",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 60,
+        "totalDividendPerShare": 6
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-10-01",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "60%(F) (D)",
+        "bookClosure": "20/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 60,
+        "dividendPerShare": 6
+      }
+    ]
+  },
+  {
+    "symbol": "PIM",
+    "name": "Popular Islamic Modaraba",
+    "latestPrice": 20.96,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/PIM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 10,
+        "totalDividendPerShare": 1
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-10-06",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "10%(F) (D)",
+        "bookClosure": "21/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      }
+    ]
+  },
+  {
+    "symbol": "PIOC",
+    "name": "Pioneer Cement Limited",
+    "latestPrice": 239.94,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/PIOC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-28",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "50%(i) (D)",
+        "bookClosure": "10/03/2025 - 12/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      },
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "50%(F) (D)",
+        "bookClosure": "21/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      }
+    ]
+  },
+  {
+    "symbol": "PKGS",
+    "name": "Packages Limited",
+    "latestPrice": 736.38,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/PKGS",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 150,
+        "totalDividendPerShare": 15
+      },
+      "fy25": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-03-26",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "150%(F) (D)",
+        "bookClosure": "23/04/2025 - 30/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 150,
+        "dividendPerShare": 15
+      }
+    ]
+  },
+  {
+    "symbol": "PPL",
+    "name": "Pakistan Petroleum Limited",
+    "latestPrice": 234.04,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/PPL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 3,
+        "intervalLabel": "Triannual",
+        "totalDividendPercent": 55,
+        "totalDividendPerShare": 5.5
+      },
+      "fy26": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 40,
+        "totalDividendPerShare": 4
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-28",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "20%(ii) (D)",
+        "bookClosure": "14/03/2025 - 18/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      },
+      {
+        "announcedAt": "2025-04-29",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "10%(iii) (D)",
+        "bookClosure": "13/05/2025 - 15/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      },
+      {
+        "announcedAt": "2025-09-19",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "25%(F) (D)",
+        "bookClosure": "21/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      },
+      {
+        "announcedAt": "2025-10-29",
+        "periodLabel": "30/09/2025(IQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "20%(i) (D)",
+        "bookClosure": "12/11/2025 - 14/11/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      },
+      {
+        "announcedAt": "2026-02-13",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "20%(F) (D)",
+        "bookClosure": "27/02/2026 - 03/03/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "PPP",
+    "name": "Pakistan Paper Products Limited",
+    "latestPrice": 121.79,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/PPP",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 50,
+        "totalDividendPerShare": 5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-12",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "50%(F) (D)",
+        "bookClosure": "07/10/2025 - 09/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      }
+    ]
+  },
+  {
+    "symbol": "PSO",
+    "name": "Pakistan State Oil Company Limited",
+    "latestPrice": 391.08,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/PSO",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-08-19",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "100%(F) (D)",
+        "bookClosure": "17/10/2025 - 24/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      }
+    ]
+  },
+  {
+    "symbol": "PTL",
+    "name": "Panther Tyres Ltd.",
+    "latestPrice": 53.58,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/PTL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 20,
+        "totalDividendPerShare": 2
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2026-03-05",
+        "periodLabel": "-",
+        "periodEnd": "2026-03-05",
+        "detail": "20%(i) (D)",
+        "bookClosure": "12/03/2026 - 13/03/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      }
+    ]
+  },
+  {
+    "symbol": "RCML",
+    "name": "Reliance Cotton Spinning Mills Limited",
+    "latestPrice": 400.22,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/RCML",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 60,
+        "totalDividendPerShare": 6
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "60%(F) (D)",
+        "bookClosure": "21/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 60,
+        "dividendPerShare": 6
+      }
+    ]
+  },
+  {
+    "symbol": "RMPL",
+    "name": "Rafhan Maize Products Company Limited",
+    "latestPrice": 9410.13,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/RMPL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 1000,
+        "totalDividendPerShare": 100
+      },
+      "fy25": {
+        "payoutCount": 3,
+        "intervalLabel": "Triannual",
+        "totalDividendPercent": 3300,
+        "totalDividendPerShare": 330
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-21",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "1000%(F) (D)",
+        "bookClosure": "18/04/2025 - 24/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 1000,
+        "dividendPerShare": 100
+      },
+      {
+        "announcedAt": "2025-04-17",
+        "periodLabel": "31/03/2025(IQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "1000%(i) (D)",
+        "bookClosure": "30/04/2025 - 02/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 1000,
+        "dividendPerShare": 100
+      },
+      {
+        "announcedAt": "2025-08-28",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "1000%(ii) (D)",
+        "bookClosure": "09/09/2025 - 10/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 1000,
+        "dividendPerShare": 100
+      },
+      {
+        "announcedAt": "2025-10-30",
+        "periodLabel": "30/09/2025(IIIQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "1300%(iii) (D)",
+        "bookClosure": "11/11/2025 - 12/11/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 1300,
+        "dividendPerShare": 130
+      }
+    ]
+  },
+  {
+    "symbol": "SAPT",
+    "name": "Sapphire Textile Mills Limited",
+    "latestPrice": 1381.39,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SAPT",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 255,
+        "totalDividendPerShare": 25.5
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-26",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "255%(i) (D)",
+        "bookClosure": "10/03/2025 - 12/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 255,
+        "dividendPerShare": 25.5
+      },
+      {
+        "announcedAt": "2026-02-24",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "100%(i) (D)",
+        "bookClosure": "09/03/2025 - 11/03/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      }
+    ]
+  },
+  {
+    "symbol": "SARC",
+    "name": "Sardar Chemical Industries Limited",
+    "latestPrice": 71.54,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SARC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 15,
+        "totalDividendPerShare": 1.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "15%(F) (D)",
+        "bookClosure": "21/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 15,
+        "dividendPerShare": 1.5
+      }
+    ]
+  },
+  {
+    "symbol": "SAZEW",
+    "name": "Sazgar Engineering Works Limited",
+    "latestPrice": 2130.52,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SAZEW",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 300,
+        "totalDividendPerShare": 30
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 150,
+        "totalDividendPerShare": 15
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-24",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "100%(ii) (D)",
+        "bookClosure": "10/03/2025 - 12/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      },
+      {
+        "announcedAt": "2025-09-01",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "200%(F) (D)",
+        "bookClosure": "19/09/2025 - 25/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 200,
+        "dividendPerShare": 20
+      },
+      {
+        "announcedAt": "2025-10-15",
+        "periodLabel": "30/09/2025(IQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "150%(i) (D)",
+        "bookClosure": "29/10/2025 - 31/10/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 150,
+        "dividendPerShare": 15
+      }
+    ]
+  },
+  {
+    "symbol": "SGF",
+    "name": "Service GlobalFootwear Limited",
+    "latestPrice": 102.02,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SGF",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 40,
+        "totalDividendPerShare": 4
+      },
+      "fy25": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-03-25",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "40%(F) (D)",
+        "bookClosure": "22/04/2025 - 28/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      }
+    ]
+  },
+  {
+    "symbol": "SHDT",
+    "name": "Shadab Textile Mills Limited",
+    "latestPrice": 40.99,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SHDT",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 12.5,
+        "totalDividendPerShare": 1.25
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "12.50%(F) (D)",
+        "bookClosure": "22/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 12.5,
+        "dividendPerShare": 1.25
+      }
+    ]
+  },
+  {
+    "symbol": "SHEZ",
+    "name": "Shezan International Limited",
+    "latestPrice": 234.9,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SHEZ",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 70,
+        "totalDividendPerShare": 7
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "70%(F) (D)",
+        "bookClosure": "21/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 70,
+        "dividendPerShare": 7
+      }
+    ]
+  },
+  {
+    "symbol": "SHFA",
+    "name": "Shifa International Hospitals Limited",
+    "latestPrice": 503.57,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SHFA",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 50,
+        "totalDividendPerShare": 5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-08",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "50%(F) (D)",
+        "bookClosure": "17/10/2025 - 25/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      }
+    ]
+  },
+  {
+    "symbol": "SHSML",
+    "name": "Shahmurad Sugar Mills Limited",
+    "latestPrice": 381.66,
+    "fiscalYearEndLabel": "September",
+    "fiscalYearEndMonth": 9,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SHSML",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 130,
+        "totalDividendPerShare": 13
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-05-26",
+        "periodLabel": "31/03/2025(HYR)",
+        "periodEnd": "31/03/2025",
+        "detail": "70%(i) (D)",
+        "bookClosure": "09/06/2025 - 11/06/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 70,
+        "dividendPerShare": 7
+      },
+      {
+        "announcedAt": "2025-12-30",
+        "periodLabel": "30/09/2025(YR)",
+        "periodEnd": "30/09/2025",
+        "detail": "60%(F) (D)",
+        "bookClosure": "21/01/2026 - 28/01/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 60,
+        "dividendPerShare": 6
+      }
+    ]
+  },
+  {
+    "symbol": "SINDM",
+    "name": "Sindh Modaraba",
+    "latestPrice": 23.65,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SINDM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 13.5,
+        "totalDividendPerShare": 1.35
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-19",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "13.50%(F) (D)",
+        "bookClosure": "17/10/2025 - 24/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 13.5,
+        "dividendPerShare": 1.35
+      }
+    ]
+  },
+  {
+    "symbol": "SITC",
+    "name": "Sitara Chemical Industries Limited",
+    "latestPrice": 862.97,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SITC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 110,
+        "totalDividendPerShare": 11
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-22",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "110%(F) (D)",
+        "bookClosure": "16/10/2025 - 23/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 110,
+        "dividendPerShare": 11
+      }
+    ]
+  },
+  {
+    "symbol": "SMCPL",
+    "name": "Safe Mix Concrete Limited",
+    "latestPrice": 40.51,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SMCPL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 25,
+        "totalDividendPerShare": 2.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-09",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "25%(F) (D)",
+        "bookClosure": "21/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      }
+    ]
+  },
+  {
+    "symbol": "SNGP",
+    "name": "Sui Northern Gas Pipelines Limited",
+    "latestPrice": 104.17,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SNGP",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 75,
+        "totalDividendPerShare": 7.5
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 30,
+        "totalDividendPerShare": 3
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-04-28",
+        "periodLabel": "30/06/2024(YR)",
+        "periodEnd": "30/06/2024",
+        "detail": "75%(F) (D)",
+        "bookClosure": "15/05/2025 - 22/05/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 75,
+        "dividendPerShare": 7.5
+      },
+      {
+        "announcedAt": "2025-11-03",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "30%(F) (D)",
+        "bookClosure": "21/11/2025 - 27/11/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 30,
+        "dividendPerShare": 3
+      }
+    ]
+  },
+  {
+    "symbol": "SPEL",
+    "name": "SPEL Limited",
+    "latestPrice": 43.09,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SPEL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 6,
+        "totalDividendPerShare": 0.6
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 10,
+        "totalDividendPerShare": 1
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-04-28",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "6%(ii) (D)",
+        "bookClosure": "07/05/2025 - 09/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 6,
+        "dividendPerShare": 0.6
+      },
+      {
+        "announcedAt": "2026-02-18",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "10%(i) (D)",
+        "bookClosure": "25/02/2026 - 25/02/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      }
+    ]
+  },
+  {
+    "symbol": "SPWL",
+    "name": "Saif Power Limited",
+    "latestPrice": 9.7,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SPWL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 10,
+        "totalDividendPerShare": 1
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-10-28",
+        "periodLabel": "30/09/2025(IIIQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "10%(i) (D)",
+        "bookClosure": "06/11/2025 - 07/11/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 10,
+        "dividendPerShare": 1
+      }
+    ]
+  },
+  {
+    "symbol": "SSGC",
+    "name": "Sui Southern Gas Company Limited",
+    "latestPrice": 28.72,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SSGC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 5,
+        "totalDividendPerShare": 0.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-11-05",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "5%(F) (D)",
+        "bookClosure": "20/11/2025 - 27/11/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 5,
+        "dividendPerShare": 0.5
+      }
+    ]
+  },
+  {
+    "symbol": "SSOM",
+    "name": "S.S.Oil Mills Limited",
+    "latestPrice": 502.68,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SSOM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 50,
+        "totalDividendPerShare": 5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-10-06",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "50%(F) (D)",
+        "bookClosure": "22/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      }
+    ]
+  },
+  {
+    "symbol": "STYLERS",
+    "name": "Stylers International Limited",
+    "latestPrice": 45.08,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/STYLERS",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 10,
+        "totalDividendPerShare": 1
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 2.5,
+        "totalDividendPerShare": 0.25
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-04-29",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "2.5%(i) (D)",
+        "bookClosure": "08/05/2025 - 10/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 2.5,
+        "dividendPerShare": 0.25
+      },
+      {
+        "announcedAt": "2025-09-30",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "7.50%(F) (D)",
+        "bookClosure": "21/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 7.5,
+        "dividendPerShare": 0.75
+      },
+      {
+        "announcedAt": "2026-03-02",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "2.5%(i) (D)",
+        "bookClosure": "10/03/2026 - 12/03/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 2.5,
+        "dividendPerShare": 0.25
+      }
+    ]
+  },
+  {
+    "symbol": "SURC",
+    "name": "Suraj Cotton Mills Limited",
+    "latestPrice": 122.04,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SURC",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 50,
+        "totalDividendPerShare": 5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "50%(F) (D)",
+        "bookClosure": "21/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      }
+    ]
+  },
+  {
+    "symbol": "SYM",
+    "name": "Symmetry Group Limited",
+    "latestPrice": 10.89,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SYM",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 5,
+        "totalDividendPerShare": 0.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-15",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "5%(F) (D)",
+        "bookClosure": "22/10/2025 - 28/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 5,
+        "dividendPerShare": 0.5
+      }
+    ]
+  },
+  {
+    "symbol": "SYS",
+    "name": "Systems Limited",
+    "latestPrice": 152.46,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/SYS",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 60,
+        "totalDividendPerShare": 6
+      },
+      "fy25": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-03-24",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "60%(F) (D)",
+        "bookClosure": "22/04/2025 - 28/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 60,
+        "dividendPerShare": 6
+      }
+    ]
+  },
+  {
+    "symbol": "TGL",
+    "name": "Tariq Glass Industries Limited",
+    "latestPrice": 169.82,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/TGL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 40,
+        "totalDividendPerShare": 4
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 50,
+        "totalDividendPerShare": 5
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-21",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "20%(i) (D)",
+        "bookClosure": "06/03/2025 - 10/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      },
+      {
+        "announcedAt": "2025-04-25",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "20%(II) (D)",
+        "bookClosure": "09/05/2025 - 13/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      },
+      {
+        "announcedAt": "2026-02-24",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "50%(i) (D)",
+        "bookClosure": "06/03/2025 - 09/03/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 50,
+        "dividendPerShare": 5
+      }
+    ]
+  },
+  {
+    "symbol": "TICL",
+    "name": "The Thal Industries Corporation Limited",
+    "latestPrice": 671.11,
+    "fiscalYearEndLabel": "September",
+    "fiscalYearEndMonth": 9,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/TICL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-12-24",
+        "periodLabel": "30/09/2025(YR)",
+        "periodEnd": "30/09/2025",
+        "detail": "100%(F) (D)",
+        "bookClosure": "17/01/2026 - 24/01/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      }
+    ]
+  },
+  {
+    "symbol": "UDLI",
+    "name": "UDL International Limited",
+    "latestPrice": 17.69,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/UDLI",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 5,
+        "totalDividendPerShare": 0.5
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-25",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "5%(F) (D)",
+        "bookClosure": "21/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 5,
+        "dividendPerShare": 0.5
+      }
+    ]
+  },
+  {
+    "symbol": "UDPL",
+    "name": "United Distributors Pakistan Limited",
+    "latestPrice": 114.09,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/UDPL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 3,
+        "intervalLabel": "Triannual",
+        "totalDividendPercent": 45,
+        "totalDividendPerShare": 4.5
+      },
+      "fy26": {
+        "payoutCount": 3,
+        "intervalLabel": "Triannual",
+        "totalDividendPercent": 482.5,
+        "totalDividendPerShare": 48.25
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-27",
+        "periodLabel": "31/12/2024(HYR)",
+        "periodEnd": "31/12/2024",
+        "detail": "20%(i) (D)",
+        "bookClosure": "11/03/2025 - 13/03/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 20,
+        "dividendPerShare": 2
+      },
+      {
+        "announcedAt": "2025-04-24",
+        "periodLabel": "31/03/2025(IIIQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "12.50%(ii) (D)",
+        "bookClosure": "05/05/2025 - 07/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 12.5,
+        "dividendPerShare": 1.25
+      },
+      {
+        "announcedAt": "2025-07-23",
+        "periodLabel": "-",
+        "periodEnd": "2025-07-23",
+        "detail": "300%(iii) (D)",
+        "bookClosure": "30/07/2025 - 31/07/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 300,
+        "dividendPerShare": 30
+      },
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "12.50%(F) (D)",
+        "bookClosure": "21/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 12.5,
+        "dividendPerShare": 1.25
+      },
+      {
+        "announcedAt": "2025-10-23",
+        "periodLabel": "30/09/2025(IQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "170%(i) (D)",
+        "bookClosure": "03/11/2025 - 04/11/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 170,
+        "dividendPerShare": 17
+      },
+      {
+        "announcedAt": "2026-02-26",
+        "periodLabel": "31/12/2025(HYR)",
+        "periodEnd": "31/12/2025",
+        "detail": "12.50%(ii) (D)",
+        "bookClosure": "09/03/2025 - 11/03/2025",
+        "fiscalYear": 2026,
+        "dividendPercent": 12.5,
+        "dividendPerShare": 1.25
+      }
+    ]
+  },
+  {
+    "symbol": "UPFL",
+    "name": "Unilever Pakistan Foods Limited",
+    "latestPrice": 26328,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/UPFL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 6000,
+        "totalDividendPerShare": 600
+      },
+      "fy25": {
+        "payoutCount": 4,
+        "intervalLabel": "Quarterly",
+        "totalDividendPercent": 16510,
+        "totalDividendPerShare": 1651
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-03-03",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "6000%(F) (D)",
+        "bookClosure": "18/04/2025 - 22/04/2025",
+        "fiscalYear": 2024,
+        "dividendPercent": 6000,
+        "dividendPerShare": 600
+      },
+      {
+        "announcedAt": "2025-04-24",
+        "periodLabel": "31/03/2025(IQ)",
+        "periodEnd": "31/03/2025",
+        "detail": "5250%(i) (D)",
+        "bookClosure": "09/05/2025 - 11/05/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 5250,
+        "dividendPerShare": 525
+      },
+      {
+        "announcedAt": "2025-08-20",
+        "periodLabel": "30/06/2025(HYR)",
+        "periodEnd": "30/06/2025",
+        "detail": "4440%(ii) (D)",
+        "bookClosure": "03/09/2025 - 05/09/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 4440,
+        "dividendPerShare": 444
+      },
+      {
+        "announcedAt": "2025-10-23",
+        "periodLabel": "30/09/2025(IIIQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "4660%(iii) (D)",
+        "bookClosure": "05/11/2025 - 07/11/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 4660,
+        "dividendPerShare": 466
+      },
+      {
+        "announcedAt": "2026-02-24",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "2160%(F) (D)",
+        "bookClosure": "18/04/2026 - 22/04/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 2160,
+        "dividendPerShare": 216
+      }
+    ]
+  },
+  {
+    "symbol": "WAFI",
+    "name": "Wafi Energy Pakistan Limited",
+    "latestPrice": 207.79,
+    "fiscalYearEndLabel": "December",
+    "fiscalYearEndMonth": 12,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/WAFI",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 2,
+        "intervalLabel": "Biannual",
+        "totalDividendPercent": 70,
+        "totalDividendPerShare": 7
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-10-28",
+        "periodLabel": "30/09/2025(IIIQ)",
+        "periodEnd": "30/09/2025",
+        "detail": "30%(I) (D)",
+        "bookClosure": "07/11/2025 - 09/11/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 30,
+        "dividendPerShare": 3
+      },
+      {
+        "announcedAt": "2026-03-02",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "40%(F) (D)",
+        "bookClosure": "21/04/2026 - 29/04/2026",
+        "fiscalYear": 2025,
+        "dividendPercent": 40,
+        "dividendPerShare": 4
+      }
+    ]
+  },
+  {
+    "symbol": "WAHN",
+    "name": "Wah Noble Chemicals Limited",
+    "latestPrice": 279.94,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/WAHN",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-25",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "100%(F) (D)",
+        "bookClosure": "20/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      }
+    ]
+  },
+  {
+    "symbol": "ZAL",
+    "name": "Zarea Limited",
+    "latestPrice": 59.82,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ZAL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 100,
+        "totalDividendPerShare": 10
+      },
+      "fy26": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-09-29",
+        "periodLabel": "30/06/2025(YR)",
+        "periodEnd": "30/06/2025",
+        "detail": "100%(F) (D)",
+        "bookClosure": "21/10/2025 - 27/10/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 100,
+        "dividendPerShare": 10
+      }
+    ]
+  },
+  {
+    "symbol": "ZIL",
+    "name": "ZIL Limited",
+    "latestPrice": 369.78,
+    "fiscalYearEndLabel": "June",
+    "fiscalYearEndMonth": 6,
+    "sourceAsOf": "2026-04-23",
+    "companyUrl": "https://dps.psx.com.pk/company/ZIL",
+    "indexUrl": "https://dps.psx.com.pk/indices/KMIALLSHR",
+    "faceValueAssumption": 10,
+    "summary": {
+      "fy24": {
+        "payoutCount": 0,
+        "intervalLabel": "",
+        "totalDividendPercent": 0,
+        "totalDividendPerShare": 0
+      },
+      "fy25": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 25,
+        "totalDividendPerShare": 2.5
+      },
+      "fy26": {
+        "payoutCount": 1,
+        "intervalLabel": "Single",
+        "totalDividendPercent": 25,
+        "totalDividendPerShare": 2.5
+      }
+    },
+    "payouts": [
+      {
+        "announcedAt": "2025-02-14",
+        "periodLabel": "31/12/2024(YR)",
+        "periodEnd": "31/12/2024",
+        "detail": "25%(F) (D)",
+        "bookClosure": "16/04/2025 - 22/04/2025",
+        "fiscalYear": 2025,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      },
+      {
+        "announcedAt": "2026-02-13",
+        "periodLabel": "31/12/2025(YR)",
+        "periodEnd": "31/12/2025",
+        "detail": "25%(F) (D)",
+        "bookClosure": "10/04/2026 - 16/04/2026",
+        "fiscalYear": 2026,
+        "dividendPercent": 25,
+        "dividendPerShare": 2.5
+      }
+    ]
+  }
+]

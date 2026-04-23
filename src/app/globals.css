@@ -1,26 +1,357 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f4efe2;
+  --foreground: #1f241f;
+  --panel: rgba(248, 244, 234, 0.8);
+  --panel-strong: rgba(255, 251, 242, 0.92);
+  --line: rgba(31, 36, 31, 0.12);
+  --accent: #0b6b4b;
+  --accent-strong: #074230;
+  --muted: #637063;
+  --shadow: 0 24px 80px rgba(49, 44, 28, 0.14);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  margin: 0;
+  min-height: 100vh;
+}
+
+html {
+  background:
+    radial-gradient(circle at top left, rgba(11, 107, 75, 0.14), transparent 24%),
+    radial-gradient(circle at top right, rgba(138, 113, 56, 0.18), transparent 28%),
+    linear-gradient(180deg, #f7f3e9 0%, #efe6d4 42%, #efe8db 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+.shell {
+  width: min(1380px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 2rem 0 4rem;
+}
+
+.hero-card,
+.panel,
+.table-panel,
+.loading-panel {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  backdrop-filter: blur(18px);
+  box-shadow: var(--shadow);
+}
+
+.hero-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 32px;
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+
+.hero-card::before {
+  content: "";
+  position: absolute;
+  inset: auto -6rem -6rem auto;
+  width: 18rem;
+  height: 18rem;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(11, 107, 75, 0.18), transparent 72%);
+}
+
+.hero-copy,
+.hero-stats,
+.controls-grid,
+.table-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.eyebrow {
+  margin: 0 0 0.75rem;
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.hero-copy h1,
+.panel-header h2,
+.loading-panel h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+}
+
+.hero-copy h1 {
+  max-width: 12ch;
+  font-size: clamp(3.2rem, 9vw, 6rem);
+}
+
+.lede,
+.methodology,
+.stat-card span,
+.field span,
+.stock-cell span {
+  color: var(--muted);
+}
+
+.lede {
+  max-width: 64ch;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.hero-stats {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.stat-card {
+  display: grid;
+  gap: 0.4rem;
+  padding: 1rem 1.1rem;
+  border-radius: 22px;
+  background: var(--panel-strong);
+  border: 1px solid rgba(11, 107, 75, 0.08);
+}
+
+.stat-card strong {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.stat-label {
+  color: var(--accent-strong);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.controls-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.panel,
+.table-panel,
+.loading-panel {
+  border-radius: 28px;
+  padding: 1.4rem;
+}
+
+.panel-header {
+  display: grid;
+  gap: 0.45rem;
+  margin-bottom: 1rem;
+}
+
+.panel-header h2 {
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+}
+
+.tab-row {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.tab {
+  display: grid;
+  gap: 0.35rem;
+  padding: 1rem;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.54);
+  color: var(--foreground);
+  text-align: left;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    background 160ms ease;
+}
+
+.tab:hover {
+  transform: translateY(-1px);
+}
+
+.tab small {
+  color: var(--muted);
+}
+
+.tab.is-active {
+  border-color: rgba(11, 107, 75, 0.24);
+  background: linear-gradient(135deg, rgba(11, 107, 75, 0.13), rgba(138, 113, 56, 0.15));
+}
+
+.field-grid {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.field {
+  display: grid;
+  gap: 0.45rem;
+}
+
+.field span {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+}
+
+.field input {
+  width: 100%;
+  border: 1px solid rgba(31, 36, 31, 0.12);
+  border-radius: 14px;
+  padding: 0.85rem 0.95rem;
+  background: rgba(255, 253, 248, 0.92);
+  color: var(--foreground);
+}
+
+.field input:focus {
+  outline: 2px solid rgba(11, 107, 75, 0.24);
+  border-color: rgba(11, 107, 75, 0.28);
+}
+
+.methodology {
+  margin: 0;
+  line-height: 1.65;
+}
+
+.table-panel {
+  margin-top: 1rem;
+}
+
+.table-header {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 480px);
+  align-items: end;
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 980px;
+}
+
+th,
+td {
+  padding: 1rem 0.7rem;
+  border-top: 1px solid var(--line);
+  vertical-align: top;
+}
+
+thead th {
+  border-top: none;
+  color: var(--accent-strong);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+tbody tr:hover {
+  background: rgba(255, 255, 255, 0.42);
+}
+
+.stock-cell {
+  display: grid;
+  gap: 0.28rem;
+}
+
+.stock-cell a {
+  width: fit-content;
+  color: var(--accent-strong);
+  font-family: var(--font-mono);
+  font-size: 0.92rem;
+  text-decoration: none;
+}
+
+.stock-cell strong {
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.metric-stack {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.metric-stack strong {
+  font-weight: 700;
+}
+
+.loading-panel {
+  min-height: 40vh;
+  display: grid;
+  align-content: center;
+}
+
+@media (min-width: 980px) {
+  .hero-card {
+    grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.9fr);
+    align-items: end;
+  }
+
+  .controls-grid {
+    grid-template-columns: 1.1fr 0.9fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .shell {
+    width: min(100% - 1rem, 1380px);
+    padding-top: 1rem;
+  }
+
+  .hero-card,
+  .panel,
+  .table-panel {
+    border-radius: 24px;
+  }
+
+  .tab-row,
+  .field-grid,
+  .table-header {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-copy h1 {
+    max-width: 100%;
+  }
 }
