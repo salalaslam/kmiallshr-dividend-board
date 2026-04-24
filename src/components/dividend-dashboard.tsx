@@ -6,10 +6,26 @@ import { api } from "../../convex/_generated/api";
 
 type FiscalYearKey = "fy24" | "fy25" | "fy26";
 
-const FISCAL_TABS: Array<{ key: FiscalYearKey; label: string; note: string }> = [
-  { key: "fy24", label: "FY24", note: "Closed-year payouts" },
-  { key: "fy25", label: "FY25", note: "Closed-year payouts" },
-  { key: "fy26", label: "FY26", note: "Paid to date" },
+const FISCAL_TABS: Array<{
+  key: FiscalYearKey;
+  label: string;
+  subtitle: string;
+}> = [
+  {
+    key: "fy24",
+    label: "FY24",
+    subtitle: "Closed-year payouts · ending 2024",
+  },
+  {
+    key: "fy25",
+    label: "FY25",
+    subtitle: "Closed-year payouts · ending 2025",
+  },
+  {
+    key: "fy26",
+    label: "FY26",
+    subtitle: "Paid to date · ending 2026",
+  },
 ];
 
 function formatCurrency(value: number, digits = 2) {
@@ -141,7 +157,7 @@ export function DividendDashboard() {
         <div className="ticker-item">
           <span className="stat-label">Selected FY</span>
           <strong>{activeTab.label}</strong>
-          <span className="text-xs">{activeTab.note}</span>
+          <span className="text-xs">{activeTab.subtitle}</span>
         </div>
         <div className="ticker-item">
           <span className="stat-label">Dividend payers</span>
@@ -179,7 +195,7 @@ export function DividendDashboard() {
                 onClick={() => setSelectedYear(tab.key)}
               >
                 <span>{tab.label}</span>
-                <small className="text-xs">{tab.note}</small>
+                <small className="text-xs">{tab.subtitle}</small>
               </button>
             ))}
           </div>
