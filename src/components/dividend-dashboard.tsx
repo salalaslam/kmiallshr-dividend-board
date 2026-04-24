@@ -41,7 +41,7 @@ export function DividendDashboard() {
   if (!stocks) {
     return (
       <div className="shell">
-        <div className="loading-panel">
+        <div className="loading-panel market-surface">
           <p className="eyebrow">Loading dataset</p>
           <h1>Pulling the KMIALLSHR dividend snapshot from Convex.</h1>
         </div>
@@ -108,12 +108,12 @@ export function DividendDashboard() {
 
   return (
     <div className="shell">
-      <section className="hero-card">
-        <div className="hero-copy">
+      <header className="market-header">
+        <div className="market-title">
           <p className="eyebrow text-xs">PSX dividend board</p>
-          <h1>KMIALLSHR dividend payers, normalized for FY24 to FY26.</h1>
+          <h1>KMIALLSHR Income Monitor</h1>
           <p className="lede text-sm">
-            Current constituent list and latest prices come from the official{" "}
+            Constituents and latest prices are sourced from the official{" "}
             <a
               href={derived.rows[0]?.indexUrl ?? "https://dps.psx.com.pk/indices/KMIALLSHR"}
               target="_blank"
@@ -121,41 +121,52 @@ export function DividendDashboard() {
             >
               PSX KMIALLSHR constituent page
             </a>
-            . Dividend rows come from each stock&apos;s PSX payout feed.
+            ; dividend rows come from each stock&apos;s PSX payout feed.
           </p>
         </div>
 
-        <div className="hero-stats">
-          <div className="stat-card">
-            <span className="stat-label">Selected FY</span>
-            <strong>{activeTab.label}</strong>
-            <span className="text-xs">{activeTab.note}</span>
+        <div className="market-meta">
+          <div>
+            <span className="stat-label">Snapshot</span>
+            <strong>{derived.sourceAsOf || "N/A"}</strong>
           </div>
-          <div className="stat-card">
-            <span className="stat-label">Dividend payers</span>
-            <strong>{derived.rows.length}</strong>
-            <span className="text-xs">Current KMIALLSHR constituents</span>
+          <div>
+            <span className="stat-label">Universe</span>
+            <strong>KMIALLSHR</strong>
           </div>
-          <div className="stat-card">
-            <span className="stat-label">Net cash if held equally</span>
-            <strong>{formatCurrency(derived.totalNetCash, 0)}</strong>
-            <span className="text-xs">{formatCurrency(derived.investment, 0)} per stock</span>
-          </div>
-          <div className="stat-card">
-            <span className="stat-label">Top net yield</span>
-            <strong>
-              {derived.topStock ? formatPercent(derived.topStock.netYield) : "0.00%"}
-            </strong>
-            <span className="text-xs">{derived.topStock?.symbol ?? "No rows"}</span>
-          </div>
+        </div>
+      </header>
+
+      <section className="ticker-strip" aria-label="Portfolio summary">
+        <div className="ticker-item">
+          <span className="stat-label">Selected FY</span>
+          <strong>{activeTab.label}</strong>
+          <span className="text-xs">{activeTab.note}</span>
+        </div>
+        <div className="ticker-item">
+          <span className="stat-label">Dividend payers</span>
+          <strong>{derived.rows.length}</strong>
+          <span className="text-xs">Current constituents</span>
+        </div>
+        <div className="ticker-item">
+          <span className="stat-label">Net cash if held equally</span>
+          <strong>{formatCurrency(derived.totalNetCash, 0)}</strong>
+          <span className="text-xs">{formatCurrency(derived.investment, 0)} per stock</span>
+        </div>
+        <div className="ticker-item is-primary">
+          <span className="stat-label">Top net yield</span>
+          <strong>
+            {derived.topStock ? formatPercent(derived.topStock.netYield) : "0.00%"}
+          </strong>
+          <span className="text-xs">{derived.topStock?.symbol ?? "No rows"}</span>
         </div>
       </section>
 
-      <section className="controls-grid">
-        <div className="panel">
-          <div className="panel-header">
-            <p className="eyebrow text-xs">Filters</p>
-            <h2>Choose the fiscal year view.</h2>
+      <section className="control-band">
+        <div className="control-group fiscal-group">
+          <div className="control-heading">
+            <p className="eyebrow text-xs">Fiscal year</p>
+            <h2>Return period</h2>
           </div>
           <div className="tab-row" role="tablist" aria-label="Fiscal year tabs">
             {FISCAL_TABS.map((tab) => (
@@ -172,6 +183,9 @@ export function DividendDashboard() {
               </button>
             ))}
           </div>
+        </div>
+
+        <div className="control-group search-group">
           <label className="field">
             <span className="text-xs">Search symbol or company</span>
             <input
@@ -183,14 +197,14 @@ export function DividendDashboard() {
           </label>
         </div>
 
-        <div className="panel">
-          <div className="panel-header">
+        <div className="control-group assumption-group">
+          <div className="control-heading">
             <p className="eyebrow text-xs">Assumptions</p>
-            <h2>Returns on a Rs 1,000,000 holding.</h2>
+            <h2>Holding model</h2>
           </div>
           <div className="field-grid">
             <label className="field">
-              <span className="text-xs">Investment per stock (Rs)</span>
+              <span className="text-xs">Investment / stock (Rs)</span>
               <input
                 className="text-sm"
                 inputMode="numeric"
@@ -217,7 +231,7 @@ export function DividendDashboard() {
               />
             </label>
             <label className="field">
-              <span className="text-xs">Face value assumption (Rs)</span>
+              <span className="text-xs">Face value (Rs)</span>
               <input
                 className="text-sm"
                 inputMode="decimal"
@@ -226,22 +240,19 @@ export function DividendDashboard() {
               />
             </label>
           </div>
-          <p className="methodology text-xs">
-            PSX payout rows are published as dividend percentages. This app converts them to
-            rupees per share using a default face value assumption of Rs {derived.configuredFaceValue.toFixed(2)}.
-            WHT defaults to 15%; zakat defaults to 0%.
-          </p>
         </div>
       </section>
 
-      <section className="table-panel">
-        <div className="panel-header table-header">
+      <section className="table-panel market-surface">
+        <div className="table-header">
           <div>
-            <p className="eyebrow text-xs">Snapshot date</p>
-            <h2>{derived.sourceAsOf || "N/A"}</h2>
+            <p className="eyebrow text-xs">Ranked constituents</p>
+            <h2>{activeTab.label} dividend yield table</h2>
           </div>
           <p className="methodology text-xs">
-            FY26 is year-to-date based on cash dividends already published on PSX as of{" "}
+            PSX payout percentages are converted to rupees per share using a Rs{" "}
+            {derived.configuredFaceValue.toFixed(2)} face value assumption. FY26 is
+            year-to-date based on cash dividends published as of{" "}
             {derived.sourceAsOf || "the latest import"}.
           </p>
         </div>
@@ -283,7 +294,7 @@ export function DividendDashboard() {
                   </td>
                   <td>{formatCurrency(row.grossDividendCash, 0)}</td>
                   <td>{formatCurrency(row.netDividendCash, 0)}</td>
-                  <td>{formatPercent(row.netYield)}</td>
+                  <td className="yield-cell">{formatPercent(row.netYield)}</td>
                 </tr>
               ))}
             </tbody>
