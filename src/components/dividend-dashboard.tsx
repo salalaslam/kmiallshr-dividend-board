@@ -202,8 +202,12 @@ export function DividendDashboard() {
         </div>
 
         <div className="control-group search-group">
+          <div className="control-heading">
+            <p className="eyebrow text-xs">Search</p>
+            <h2>Symbol or company</h2>
+          </div>
           <label className="field">
-            <span className="text-xs">Search symbol or company</span>
+            <span className="text-xs">Ticker lookup</span>
             <input
               className="text-sm"
               value={search}
