@@ -568,6 +568,8 @@ td:not(:first-child) {
 .add-btn-cell {
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   padding: 0.65rem 0.82rem;
 }
 

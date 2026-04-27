@@ -236,6 +236,12 @@ export function CapitalGainsDashboard() {
     [holdings],
   );
 
+  const clearAllHoldings = useCallback(() => {
+    if (!window.confirm("Remove all holdings? This cannot be undone.")) return;
+    setHoldings([]);
+    saveHoldings([]);
+  }, []);
+
   if (!stocks) {
     return (
       <div className="shell">
@@ -343,7 +349,7 @@ export function CapitalGainsDashboard() {
               onKeyDown={(e) => e.key === "Enter" && addHolding()}
             />
           </div>
-          <div className="add-btn-cell">
+          <div className="add-btn-cell" style={{ gap: "0.5rem" }}>
             <button
               type="button"
               className="add-btn"
@@ -356,6 +362,16 @@ export function CapitalGainsDashboard() {
             >
               + Add holding
             </button>
+            {holdings.length > 0 && (
+              <button
+                type="button"
+                className="add-btn"
+                onClick={clearAllHoldings}
+                style={{ background: "var(--negative)" }}
+              >
+                Clear all
+              </button>
+            )}
           </div>
         </div>
 
