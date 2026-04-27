@@ -37,4 +37,14 @@ export default defineSchema({
       }),
     ),
   }).index("by_symbol", ["symbol"]),
+
+  priceSnapshots: defineTable({
+    symbol: v.string(),
+    date: v.string(),
+    label: v.string(),
+    price: v.number(),
+    sourceAsOf: v.string(),
+  })
+    .index("by_symbol", ["symbol"])
+    .index("by_date", ["date"]),
 });
