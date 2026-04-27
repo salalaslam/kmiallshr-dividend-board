@@ -1,112 +1,71 @@
+/**
+ * Saves a price snapshot for each KMIALLSHR stock into the Convex
+ * priceSnapshots table. Reads prices from data/stocks.json (produced by
+ * fetch-psx-data.mjs) so no extra HTTP requests are needed.
+ *
+ * Usage:
+ *   npm run data:fetch          # refresh data/stocks.json first
+ *   npm run data:prices         # then run this script
+ *
+ * Pass --date YYYY-MM-DD to label the snapshot with a specific date
+ * (defaults to today). Useful to mark a fiscal-year start:
+ *   node scripts/fetch-price-history.mjs --date 2025-07-01
+ */
+
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 import process from "node:process";
 import { ConvexHttpClient } from "convex/browser";
 import { api } from "../convex/_generated/api.js";
 
-const INDEX_URL = "https://dps.psx.com.pk/indices/KMIALLSHR";
-
-const REFERENCE_DATES = [
-  { date: "2025-07-01", label: "FY26 start" },
-  { date: "2024-07-01", label: "FY25 start" },
-];
-
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-async function fetchText(url, options = {}, attempts = 4) {
-  let lastError = null;
-  for (let attempt = 1; attempt <= attempts; attempt++) {
-    try {
-      const res = await fetch(url, {
-        ...options,
-        headers: {
-          "user-agent": "kmiallshr-data-import/1.0",
-          ...(options.headers ?? {}),
-        },
-      });
-      if (!res.ok) throw new Error(`${res.status} ${url}`);
-      return await res.text();
-    } catch (err) {
-      lastError = err;
-      await sleep(500 * attempt);
-    }
-  }
-  throw lastError;
-}
-
-async function fetchHistoricalClose(symbol, isoDate) {
-  const dayStart = Math.floor(new Date(`${isoDate}T00:00:00Z`).getTime() / 1000);
-  const dayEnd = dayStart + 86400;
-  const url = `https://dps.psx.com.pk/timeseries?type=ohlcv&format=json&symbol=${encodeURIComponent(symbol)}&from=${dayStart}&to=${dayEnd}`;
-
-  try {
-    const text = await fetchText(url);
-    const json = JSON.parse(text);
-    // PSX returns { data: [[timestamp, open, high, low, close, volume], ...] }
-    const rows = json?.data ?? [];
-    if (rows.length === 0) return null;
-    // Use the last row's close price (index 4)
-    const close = rows[rows.length - 1][4];
-    return typeof close === "number" ? close : null;
-  } catch {
-    return null;
-  }
-}
-
-async function fetchCurrentConstituents() {
-  const { load } = await import("cheerio");
-  const html = await fetchText(INDEX_URL);
-  const $ = load(html);
-  const symbols = [];
-  $('h2:contains("KMIALLSHR Constituents")')
-    .nextAll("div.tbl__wrapper")
-    .first()
-    .find("tbody tr")
-    .each((_, row) => {
-      const symbol = $(row).find("td").first().attr("data-order");
-      if (symbol) symbols.push(symbol);
-    });
-  return symbols;
+function parseArgs() {
+  const args = process.argv.slice(2);
+  const dateIdx = args.indexOf("--date");
+  const date =
+    dateIdx !== -1 && args[dateIdx + 1]
+      ? args[dateIdx + 1]
+      : new Date().toISOString().slice(0, 10);
+  return { date };
 }
 
 async function main() {
   const convexUrl = process.env.NEXT_PUBLIC_CONVEX_URL;
-  if (!convexUrl) throw new Error("NEXT_PUBLIC_CONVEX_URL not set in environment");
+  if (!convexUrl) throw new Error("NEXT_PUBLIC_CONVEX_URL not set");
+
+  const { date } = parseArgs();
+  const label = date === new Date().toISOString().slice(0, 10)
+    ? `Snapshot ${date}`
+    : date === "2025-07-01"
+    ? "FY26 start"
+    : date === "2024-07-01"
+    ? "FY25 start"
+    : `Snapshot ${date}`;
+
+  const stocksFile = path.join(process.cwd(), "data", "stocks.json");
+  const stocks = JSON.parse(await readFile(stocksFile, "utf8"));
 
   const client = new ConvexHttpClient(convexUrl);
   const sourceAsOf = new Date().toISOString().slice(0, 10);
 
-  process.stdout.write("Fetching KMIALLSHR constituents...\n");
-  const symbols = await fetchCurrentConstituents();
-  process.stdout.write(`Found ${symbols.length} constituents.\n`);
+  process.stdout.write(
+    `Saving price snapshot for ${date} (${label}) — ${stocks.length} stocks...\n`,
+  );
 
-  for (const refDate of REFERENCE_DATES) {
-    process.stdout.write(`\nFetching prices for ${refDate.label} (${refDate.date})...\n`);
-    let saved = 0;
-    let missing = 0;
-
-    for (const symbol of symbols) {
-      const price = await fetchHistoricalClose(symbol, refDate.date);
-      if (price === null) {
-        process.stdout.write(`  ${symbol}: no data — skipped\n`);
-        missing++;
-        continue;
-      }
-      await client.mutation(api.priceSnapshots.upsert, {
-        symbol,
-        date: refDate.date,
-        label: refDate.label,
-        price,
-        sourceAsOf,
-      });
-      process.stdout.write(`  ${symbol}: Rs ${price}\n`);
-      saved++;
-      await sleep(120);
-    }
-    process.stdout.write(`  Saved ${saved}, skipped ${missing}\n`);
+  let saved = 0;
+  for (const stock of stocks) {
+    if (!stock.latestPrice || stock.latestPrice <= 0) continue;
+    await client.mutation(api.priceSnapshots.upsert, {
+      symbol: stock.symbol,
+      date,
+      label,
+      price: stock.latestPrice,
+      sourceAsOf,
+    });
+    process.stdout.write(`  ${stock.symbol}: Rs ${stock.latestPrice}\n`);
+    saved++;
   }
 
-  process.stdout.write("\nDone.\n");
+  process.stdout.write(`\nDone. Saved ${saved} snapshots for ${date}.\n`);
 }
 
 main().catch((err) => {

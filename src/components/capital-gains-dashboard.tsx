@@ -10,7 +10,10 @@ type Holding = {
   shares: number;
 };
 
+const today = new Date().toISOString().slice(0, 10);
+
 const REFERENCE_OPTIONS = [
+  { date: today, label: `Today — ${today}` },
   { date: "2025-07-01", label: "FY26 start — 1 Jul 2025" },
   { date: "2024-07-01", label: "FY25 start — 1 Jul 2024" },
 ];
@@ -442,7 +445,7 @@ export function CapitalGainsDashboard() {
             className="tab-row"
             role="tablist"
             aria-label="Reference date tabs"
-            style={{ gridTemplateColumns: "repeat(2, minmax(0, 1fr))" }}
+            style={{ gridTemplateColumns: "repeat(3, minmax(0, 1fr))" }}
           >
             {REFERENCE_OPTIONS.map((opt, i) => (
               <button
@@ -456,9 +459,7 @@ export function CapitalGainsDashboard() {
                 onClick={() => setRefDateIndex(i)}
               >
                 <span>{opt.date}</span>
-                <small className="text-xs">
-                  {i === 0 ? "FY26 start" : "FY25 start"}
-                </small>
+                <small className="text-xs">{opt.label.split("—")[0].trim()}</small>
               </button>
             ))}
           </div>
