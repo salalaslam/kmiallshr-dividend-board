@@ -191,7 +191,7 @@ export function CapitalGainsDashboard() {
     [holdings],
   );
 
-  if (!stocks || !snapshots) {
+  if (!stocks) {
     return (
       <div className="shell">
         <div className="loading-panel market-surface">
