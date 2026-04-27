@@ -9,6 +9,7 @@
  */
 
 import type * as stocks from "../stocks.js";
+import type * as priceSnapshots from "../priceSnapshots.js";
 
 import type {
   ApiFromModules,
@@ -18,6 +19,7 @@ import type {
 
 declare const fullApi: ApiFromModules<{
   stocks: typeof stocks;
+  priceSnapshots: typeof priceSnapshots;
 }>;
 
 /**
