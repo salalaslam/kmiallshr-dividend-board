@@ -613,6 +613,17 @@ td:not(:first-child) {
   top: 44px;
 }
 
+/* ── Universe table: own scroll container so sticky thead is scoped to it ── */
+.universe-table-wrap {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 65vh;
+}
+
+.universe-table thead th {
+  top: 0;
+}
+
 @media (max-width: 820px) {
   .add-holding-band {
     grid-template-columns: 1fr 1fr;

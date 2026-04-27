@@ -661,8 +661,8 @@ export function CapitalGainsDashboard() {
           </div>
         )}
 
-        <div className="table-wrap">
-          <table className="text-sm capital-gains-table">
+        <div className="table-wrap universe-table-wrap">
+          <table className="text-sm universe-table">
             <thead>
               <tr>
                 <th>#</th>
