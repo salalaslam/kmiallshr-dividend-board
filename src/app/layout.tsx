@@ -36,7 +36,7 @@ export default function RootLayout({
       lang="en"
       className={`${fraunces.variable} ${manrope.variable} ${plexMono.variable} h-full`}
     >
-      <body className="min-h-full">
+      <body className="min-h-full" suppressHydrationWarning>
         <ConvexClientProvider>
           <Nav />
           {children}
