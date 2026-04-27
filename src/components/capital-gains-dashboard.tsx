@@ -1,7 +1,7 @@
 "use client";
 
 import { useQuery } from "convex/react";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { api } from "../../convex/_generated/api";
 
 type Holding = {
@@ -12,10 +12,10 @@ type Holding = {
 
 const today = new Date().toISOString().slice(0, 10);
 
-const REFERENCE_OPTIONS = [
-  { date: today, label: `Today — ${today}` },
-  { date: "2025-07-01", label: "FY26 start — 1 Jul 2025" },
-  { date: "2024-07-01", label: "FY25 start — 1 Jul 2024" },
+const PRESET_OPTIONS = [
+  { date: today, label: "Today", sub: today },
+  { date: "2025-07-01", label: "FY26 start", sub: "1 Jul 2025" },
+  { date: "2024-07-01", label: "FY25 start", sub: "1 Jul 2024" },
 ];
 
 const HOLDINGS_KEY = "kmiallshr_holdings";
@@ -38,6 +38,10 @@ function toNumber(value: string) {
   return Number.isFinite(parsed) ? parsed : 0;
 }
 
+function isValidDate(str: string) {
+  return /^\d{4}-\d{2}-\d{2}$/.test(str) && !isNaN(Date.parse(str));
+}
+
 function loadHoldings(): Holding[] {
   if (typeof window === "undefined") return [];
   try {
@@ -52,7 +56,9 @@ function saveHoldings(holdings: Holding[]) {
 }
 
 export function CapitalGainsDashboard() {
-  const [refDateIndex, setRefDateIndex] = useState(0);
+  // 0-2 = presets, 3 = custom
+  const [refTabIndex, setRefTabIndex] = useState(0);
+  const [customDate, setCustomDate] = useState("");
   const [wht, setWht] = useState("15");
   const [zakat, setZakat] = useState("0");
   const [search, setSearch] = useState("");
@@ -61,16 +67,26 @@ export function CapitalGainsDashboard() {
   const [newSymbol, setNewSymbol] = useState("");
   const [newBuyPrice, setNewBuyPrice] = useState("");
   const [newShares, setNewShares] = useState("");
+  const [addError, setAddError] = useState<string | null>(null);
 
   useEffect(() => {
     setHoldings(loadHoldings());
   }, []);
 
-  const refDate = REFERENCE_OPTIONS[refDateIndex];
-  const stocks = useQuery(api.stocks.list);
-  const snapshots = useQuery(api.priceSnapshots.listByDate, { date: refDate.date });
+  const activeDate =
+    refTabIndex === 3 && isValidDate(customDate)
+      ? customDate
+      : PRESET_OPTIONS[Math.min(refTabIndex, 2)].date;
 
-  const snapshotMap = new Map(snapshots?.map((s) => [s.symbol, s.price]) ?? []);
+  const stocks = useQuery(api.stocks.list);
+  const snapshots = useQuery(api.priceSnapshots.listByDate, { date: activeDate });
+
+  // Keep the last resolved snapshots to avoid table flicker during tab switch
+  const snapshotsRef = useRef(snapshots);
+  if (snapshots !== undefined) snapshotsRef.current = snapshots;
+  const stableSnapshots = snapshots ?? snapshotsRef.current ?? [];
+
+  const snapshotMap = new Map(stableSnapshots.map((s) => [s.symbol, s.price]));
   const stockMap = new Map(stocks?.map((s) => [s.symbol, s]) ?? []);
 
   const whtRate = Math.max(toNumber(wht), 0) / 100;
@@ -109,6 +125,7 @@ export function CapitalGainsDashboard() {
       };
     })
     .filter((row) => {
+      if (!row.symbol) return false; // skip any malformed DB entries
       if (!term) return true;
       return (
         row.symbol.toLowerCase().includes(term) ||
@@ -174,13 +191,20 @@ export function CapitalGainsDashboard() {
     const bp = toNumber(newBuyPrice);
     const sh = toNumber(newShares);
     if (!sym || bp <= 0 || sh <= 0) return;
+
+    if (stocks && !stockMap.has(sym)) {
+      setAddError(`"${sym}" is not in the KMIALLSHR universe`);
+      return;
+    }
+
+    setAddError(null);
     const updated = [...holdings, { symbol: sym, buyPrice: bp, shares: sh }];
     setHoldings(updated);
     saveHoldings(updated);
     setNewSymbol("");
     setNewBuyPrice("");
     setNewShares("");
-  }, [holdings, newSymbol, newBuyPrice, newShares]);
+  }, [holdings, newSymbol, newBuyPrice, newShares, stocks, stockMap]);
 
   const removeHolding = useCallback(
     (index: number) => {
@@ -218,7 +242,7 @@ export function CapitalGainsDashboard() {
         <div className="market-meta">
           <div>
             <span className="stat-label">Reference date</span>
-            <strong>{refDate.date}</strong>
+            <strong>{activeDate}</strong>
           </div>
           <div>
             <span className="stat-label">Universe</span>
@@ -249,11 +273,20 @@ export function CapitalGainsDashboard() {
             <span className="text-xs">Stock symbol</span>
             <input
               className="text-sm"
-              placeholder="e.g. POL"
+              placeholder="e.g. UDPL"
               value={newSymbol}
-              onChange={(e) => setNewSymbol(e.target.value)}
+              onChange={(e) => {
+                setNewSymbol(e.target.value);
+                setAddError(null);
+              }}
               onKeyDown={(e) => e.key === "Enter" && addHolding()}
+              style={addError ? { borderColor: "var(--warning)" } : undefined}
             />
+            {addError && (
+              <span style={{ color: "var(--warning)", fontSize: "0.72rem", fontFamily: "var(--font-mono)", marginTop: "0.2rem" }}>
+                {addError}
+              </span>
+            )}
           </div>
           <div
             className="field"
@@ -335,7 +368,10 @@ export function CapitalGainsDashboard() {
                 </thead>
                 <tbody>
                   {holdingRows.map((row, i) => (
-                    <tr key={`${row.symbol}-${i}`}>
+                    <tr
+                      key={`${row.symbol}-${i}`}
+                      style={!row.found ? { background: "#fffbf5" } : undefined}
+                    >
                       <td>
                         <div className="stock-cell text-sm">
                           {row.found ? (
@@ -352,7 +388,26 @@ export function CapitalGainsDashboard() {
                             {row.found ? (
                               <span>FY end: {row.fiscalYearEndLabel}</span>
                             ) : (
-                              <span style={{ color: "var(--warning)" }}>Not in KMIALLSHR universe</span>
+                              <span style={{ color: "var(--warning)" }}>
+                                Not in KMIALLSHR universe —{" "}
+                                <button
+                                  type="button"
+                                  onClick={() => removeHolding(i)}
+                                  style={{
+                                    background: "none",
+                                    border: "none",
+                                    color: "var(--warning)",
+                                    cursor: "pointer",
+                                    fontFamily: "var(--font-mono)",
+                                    fontSize: "inherit",
+                                    fontWeight: 700,
+                                    padding: 0,
+                                    textDecoration: "underline",
+                                  }}
+                                >
+                                  Remove
+                                </button>
+                              </span>
                             )}
                           </div>
                         </div>
@@ -452,24 +507,45 @@ export function CapitalGainsDashboard() {
             className="tab-row"
             role="tablist"
             aria-label="Reference date tabs"
-            style={{ gridTemplateColumns: "repeat(3, minmax(0, 1fr))" }}
+            style={{ gridTemplateColumns: "repeat(4, minmax(0, 1fr))" }}
           >
-            {REFERENCE_OPTIONS.map((opt, i) => (
+            {PRESET_OPTIONS.map((opt, i) => (
               <button
                 key={opt.date}
                 type="button"
                 role="tab"
-                aria-selected={refDateIndex === i}
-                className={
-                  refDateIndex === i ? "tab text-sm is-active" : "tab text-sm"
-                }
-                onClick={() => setRefDateIndex(i)}
+                aria-selected={refTabIndex === i}
+                className={refTabIndex === i ? "tab text-sm is-active" : "tab text-sm"}
+                onClick={() => setRefTabIndex(i)}
               >
-                <span>{opt.date}</span>
-                <small className="text-xs">{opt.label.split("—")[0].trim()}</small>
+                <span>{opt.sub}</span>
+                <small className="text-xs">{opt.label}</small>
               </button>
             ))}
+            <button
+              type="button"
+              role="tab"
+              aria-selected={refTabIndex === 3}
+              className={refTabIndex === 3 ? "tab text-sm is-active" : "tab text-sm"}
+              onClick={() => setRefTabIndex(3)}
+            >
+              <span>Custom</span>
+              <small className="text-xs">Pick a date</small>
+            </button>
           </div>
+          {refTabIndex === 3 && (
+            <div className="field" style={{ marginTop: "0.45rem" }}>
+              <span className="text-xs">Date (YYYY-MM-DD)</span>
+              <input
+                type="date"
+                className="text-sm"
+                value={customDate}
+                max={today}
+                onChange={(e) => setCustomDate(e.target.value)}
+                style={{ fontFamily: "var(--font-mono)" }}
+              />
+            </div>
+          )}
         </div>
 
         <div className="control-group search-group">
@@ -525,7 +601,7 @@ export function CapitalGainsDashboard() {
             <h2>KMIALLSHR — All constituents</h2>
           </div>
           <p className="methodology text-xs">
-            Total return = capital gain % (vs {refDate.date}) + net dividend
+            Total return = capital gain % (vs {activeDate}) + net dividend
             yield (FY26 YTD). Stocks without a price snapshot are ranked last
             and show — in gain columns.
           </p>
