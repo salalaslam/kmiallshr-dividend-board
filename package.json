@@ -9,6 +9,7 @@
     "lint": "eslint",
     "data:fetch": "node scripts/fetch-psx-data.mjs",
     "data:prices": "node scripts/fetch-price-history.mjs",
+    "data:history": "node scripts/fetch-historical-prices.mjs",
     "seed:dev": "npx convex import --table stocks --replace --yes data/stocks.json",
     "seed:prod": "npx convex import --prod --table stocks --replace --yes data/stocks.json"
   },
