@@ -125,18 +125,28 @@ export function CapitalGainsDashboard() {
   // ── Holdings rows ──
   const holdingRows = holdings.map((h) => {
     const stock = stockMap.get(h.symbol);
-    const currentPrice = stock?.latestPrice ?? 0;
+    const found = stock !== undefined;
+    const currentPrice = stock?.latestPrice ?? null;
     const divPerShare = stock?.summary.fy26.totalDividendPerShare ?? 0;
-    const capitalGainRs = (currentPrice - h.buyPrice) * h.shares;
+    const capitalGainRs =
+      currentPrice !== null ? (currentPrice - h.buyPrice) * h.shares : null;
     const capitalGainPct =
-      h.buyPrice > 0 ? ((currentPrice - h.buyPrice) / h.buyPrice) * 100 : 0;
-    const divIncomeNet = divPerShare * h.shares * (1 - deduction);
-    const totalPnL = capitalGainRs + divIncomeNet;
+      currentPrice !== null && h.buyPrice > 0
+        ? ((currentPrice - h.buyPrice) / h.buyPrice) * 100
+        : null;
+    const divIncomeNet =
+      currentPrice !== null ? divPerShare * h.shares * (1 - deduction) : null;
     const costBasis = h.buyPrice * h.shares;
-    const totalPnLPct = costBasis > 0 ? (totalPnL / costBasis) * 100 : 0;
+    const totalPnL =
+      capitalGainRs !== null && divIncomeNet !== null
+        ? capitalGainRs + divIncomeNet
+        : null;
+    const totalPnLPct =
+      totalPnL !== null && costBasis > 0 ? (totalPnL / costBasis) * 100 : null;
 
     return {
       ...h,
+      found,
       stockName: stock?.name ?? h.symbol,
       fiscalYearEndLabel: stock?.fiscalYearEndLabel ?? "—",
       companyUrl: stock?.companyUrl ?? "#",
@@ -150,10 +160,11 @@ export function CapitalGainsDashboard() {
     };
   });
 
-  const totalInvested = holdingRows.reduce((s, r) => s + r.costBasis, 0);
-  const totalCapGain = holdingRows.reduce((s, r) => s + r.capitalGainRs, 0);
-  const totalDivIncome = holdingRows.reduce((s, r) => s + r.divIncomeNet, 0);
-  const totalPnL = holdingRows.reduce((s, r) => s + r.totalPnL, 0);
+  const foundRows = holdingRows.filter((r) => r.found);
+  const totalInvested = foundRows.reduce((s, r) => s + r.costBasis, 0);
+  const totalCapGain = foundRows.reduce((s, r) => s + (r.capitalGainRs ?? 0), 0);
+  const totalDivIncome = foundRows.reduce((s, r) => s + (r.divIncomeNet ?? 0), 0);
+  const totalPnL = foundRows.reduce((s, r) => s + (r.totalPnL ?? 0), 0);
   const totalPnLPct = totalInvested > 0 ? (totalPnL / totalInvested) * 100 : 0;
   const totalCapGainPct =
     totalInvested > 0 ? (totalCapGain / totalInvested) * 100 : 0;
@@ -327,50 +338,46 @@ export function CapitalGainsDashboard() {
                     <tr key={`${row.symbol}-${i}`}>
                       <td>
                         <div className="stock-cell text-sm">
-                          <a
-                            href={row.companyUrl}
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            {row.symbol}
-                          </a>
+                          {row.found ? (
+                            <a href={row.companyUrl} target="_blank" rel="noreferrer">
+                              {row.symbol}
+                            </a>
+                          ) : (
+                            <span style={{ color: "var(--warning)", fontFamily: "var(--font-mono)", fontWeight: 700 }}>
+                              {row.symbol}
+                            </span>
+                          )}
                           <div className="text-xs">
                             <strong>{row.stockName}</strong>
-                            <span>FY end: {row.fiscalYearEndLabel}</span>
+                            {row.found ? (
+                              <span>FY end: {row.fiscalYearEndLabel}</span>
+                            ) : (
+                              <span style={{ color: "var(--warning)" }}>Not in KMIALLSHR universe</span>
+                            )}
                           </div>
                         </div>
                       </td>
                       <td>{row.shares.toLocaleString("en-PK")}</td>
                       <td>{formatCurrency(row.buyPrice)}</td>
-                      <td>{formatCurrency(row.currentPrice)}</td>
-                      <td
-                        className={
-                          row.capitalGainRs >= 0 ? "gain-pos" : "gain-neg"
-                        }
-                      >
-                        {formatCurrency(row.capitalGainRs, 0)}
+                      <td>{row.currentPrice !== null ? formatCurrency(row.currentPrice) : "—"}</td>
+                      <td className={row.capitalGainRs !== null ? (row.capitalGainRs >= 0 ? "gain-pos" : "gain-neg") : ""}>
+                        {row.capitalGainRs !== null ? formatCurrency(row.capitalGainRs, 0) : "—"}
                       </td>
-                      <td
-                        className={
-                          row.capitalGainPct >= 0 ? "gain-pos" : "gain-neg"
-                        }
-                      >
-                        {formatPercent(row.capitalGainPct)}
+                      <td className={row.capitalGainPct !== null ? (row.capitalGainPct > 0 ? "gain-pos" : row.capitalGainPct < 0 ? "gain-neg" : "") : ""}>
+                        {row.capitalGainPct !== null ? formatPercent(row.capitalGainPct) : "—"}
                       </td>
-                      <td>{formatCurrency(row.divIncomeNet, 0)}</td>
+                      <td>{row.divIncomeNet !== null ? formatCurrency(row.divIncomeNet, 0) : "—"}</td>
                       <td>
-                        <div className="metric-stack text-sm">
-                          <strong
-                            className={
-                              row.totalPnL >= 0 ? "gain-pos" : "gain-neg"
-                            }
-                          >
-                            {formatCurrency(row.totalPnL, 0)}
-                          </strong>
-                          <span className="text-xs">
-                            {formatPercent(row.totalPnLPct)} on cost
-                          </span>
-                        </div>
+                        {row.totalPnL !== null ? (
+                          <div className="metric-stack text-sm">
+                            <strong className={row.totalPnL > 0 ? "gain-pos" : row.totalPnL < 0 ? "gain-neg" : ""}>
+                              {formatCurrency(row.totalPnL, 0)}
+                            </strong>
+                            <span className="text-xs">
+                              {row.totalPnLPct !== null ? `${formatPercent(row.totalPnLPct)} on cost` : ""}
+                            </span>
+                          </div>
+                        ) : "—"}
                       </td>
                       <td>
                         <button
@@ -422,7 +429,7 @@ export function CapitalGainsDashboard() {
                 <strong>{formatCurrency(totalDivIncome, 0)}</strong>
                 <span className="text-xs">After WHT &amp; Zakat</span>
               </div>
-              <div className="ticker-item is-primary">
+              <div className={`ticker-item ${totalPnL >= 0 ? "is-primary" : "is-negative"}`}>
                 <span className="stat-label">Total P&amp;L</span>
                 <strong>{formatCurrency(totalPnL, 0)}</strong>
                 <span className="text-xs">
@@ -566,7 +573,11 @@ export function CapitalGainsDashboard() {
                     {row.capitalGainPct !== null ? (
                       <span
                         className={
-                          row.capitalGainPct >= 0 ? "gain-pos" : "gain-neg"
+                          row.capitalGainPct > 0
+                            ? "gain-pos"
+                            : row.capitalGainPct < 0
+                            ? "gain-neg"
+                            : ""
                         }
                       >
                         {formatPercent(row.capitalGainPct)}

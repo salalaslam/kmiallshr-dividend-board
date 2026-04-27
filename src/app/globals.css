@@ -183,6 +183,15 @@ thead th,
   font-weight: 800;
 }
 
+.ticker-item.is-negative {
+  background: var(--negative-soft);
+}
+
+.ticker-item.is-negative strong {
+  color: var(--negative);
+  font-weight: 800;
+}
+
 .control-band {
   display: grid;
   gap: 0;
