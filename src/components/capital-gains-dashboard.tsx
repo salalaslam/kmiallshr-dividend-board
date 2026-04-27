@@ -68,6 +68,8 @@ export function CapitalGainsDashboard() {
   const [newBuyPrice, setNewBuyPrice] = useState("");
   const [newShares, setNewShares] = useState("");
   const [addError, setAddError] = useState<string | null>(null);
+  const [fetchingPrices, setFetchingPrices] = useState(false);
+  const [fetchResult, setFetchResult] = useState<{ saved: number; failed: number } | null>(null);
 
   useEffect(() => {
     setHoldings(loadHoldings());
@@ -185,6 +187,25 @@ export function CapitalGainsDashboard() {
   const totalPnLPct = totalInvested > 0 ? (totalPnL / totalInvested) * 100 : 0;
   const totalCapGainPct =
     totalInvested > 0 ? (totalCapGain / totalInvested) * 100 : 0;
+
+  const fetchHistoricalPrices = useCallback(async () => {
+    if (!isValidDate(activeDate)) return;
+    setFetchingPrices(true);
+    setFetchResult(null);
+    try {
+      const res = await fetch("/api/fetch-prices", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ date: activeDate }),
+      });
+      const data = await res.json();
+      setFetchResult({ saved: data.saved, failed: data.failed });
+    } catch {
+      setFetchResult(null);
+    } finally {
+      setFetchingPrices(false);
+    }
+  }, [activeDate]);
 
   const addHolding = useCallback(() => {
     const sym = newSymbol.trim().toUpperCase();
@@ -606,6 +627,39 @@ export function CapitalGainsDashboard() {
             and show — in gain columns.
           </p>
         </div>
+
+        {/* No-snapshot banner for custom date */}
+        {stableSnapshots.length === 0 && isValidDate(activeDate) && (
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap: "1rem",
+              padding: "0.85rem 1rem",
+              borderBottom: "1px solid var(--line)",
+              background: "#fffbf5",
+            }}
+          >
+            <span style={{ flex: 1, color: "var(--ink-soft)", fontSize: "0.86rem" }}>
+              No price snapshots for <strong style={{ fontFamily: "var(--font-mono)" }}>{activeDate}</strong>.
+              Fetch historical prices from Yahoo Finance to populate this date.
+            </span>
+            {fetchResult && (
+              <span style={{ color: "var(--positive)", fontSize: "0.82rem", fontFamily: "var(--font-mono)" }}>
+                ✓ {fetchResult.saved} saved
+              </span>
+            )}
+            <button
+              type="button"
+              className="add-btn"
+              onClick={fetchHistoricalPrices}
+              disabled={fetchingPrices}
+              style={{ whiteSpace: "nowrap" }}
+            >
+              {fetchingPrices ? "Fetching…" : "Fetch prices"}
+            </button>
+          </div>
+        )}
 
         <div className="table-wrap">
           <table className="text-sm capital-gains-table">
