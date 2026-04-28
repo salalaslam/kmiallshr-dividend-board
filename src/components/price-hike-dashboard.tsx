@@ -100,9 +100,10 @@ export function PriceHikeDashboard() {
 
   const stocks = useQuery(api.stocks.list);
   const snapshots = useQuery(api.priceSnapshots.listAll);
+  const isSnapshotsLoading = !snapshots;
 
   const derived = useMemo(() => {
-    if (!stocks || !snapshots) {
+    if (!stocks) {
       return {
         rows: [] as HikeRow[],
         sourceAsOf: "",
@@ -112,7 +113,7 @@ export function PriceHikeDashboard() {
 
     const pointMap = new Map<string, PricePoint[]>();
 
-    for (const snapshot of snapshots) {
+    for (const snapshot of snapshots ?? []) {
       const year = snapshot.date.slice(0, 4);
       if (year !== selectedYear) continue;
       if (!Number.isFinite(snapshot.price) || snapshot.price <= 0) continue;
@@ -172,12 +173,12 @@ export function PriceHikeDashboard() {
     };
   }, [search, selectedYear, snapshots, stocks]);
 
-  if (!stocks || !snapshots) {
+  if (!stocks) {
     return (
       <div className="shell">
         <div className="loading-panel market-surface">
           <p className="eyebrow">Loading dataset</p>
-          <h1>Calculating yearly price hikes for KMIALLSHR constituents.</h1>
+          <h1>Loading KMIALLSHR constituents.</h1>
         </div>
       </div>
     );
@@ -315,6 +316,11 @@ export function PriceHikeDashboard() {
               </tr>
             </thead>
             <tbody>
+              {isSnapshotsLoading && (
+                <tr>
+                  <td colSpan={8}>Loading yearly price snapshots...</td>
+                </tr>
+              )}
               {derived.rows.map((row) => (
                 <tr key={`${selectedYear}-${row.symbol}`}>
                   <td>
@@ -336,7 +342,7 @@ export function PriceHikeDashboard() {
                   <td>{row.pointsCount}</td>
                 </tr>
               ))}
-              {derived.rows.length === 0 && (
+              {!isSnapshotsLoading && derived.rows.length === 0 && (
                 <tr>
                   <td colSpan={8}>
                     No hike data available for this year with current snapshots.
