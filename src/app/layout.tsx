@@ -3,6 +3,7 @@ import { Fraunces, IBM_Plex_Mono, Manrope } from "next/font/google";
 import "./globals.css";
 import { siteMetadata } from "@/lib/metadata";
 import { ConvexClientProvider } from "./convex-client-provider";
+import { Nav } from "@/components/nav";
 
 const fraunces = Fraunces({
   variable: "--font-display",
@@ -36,7 +37,10 @@ export default function RootLayout({
       className={`${fraunces.variable} ${manrope.variable} ${plexMono.variable} h-full`}
     >
       <body className="min-h-full">
-        <ConvexClientProvider>{children}</ConvexClientProvider>
+        <ConvexClientProvider>
+          <Nav />
+          {children}
+        </ConvexClientProvider>
       </body>
     </html>
   );

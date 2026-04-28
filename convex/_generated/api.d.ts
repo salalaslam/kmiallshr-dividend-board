@@ -8,6 +8,7 @@
  * @module
  */
 
+import type * as priceSnapshots from "../priceSnapshots.js";
 import type * as stocks from "../stocks.js";
 
 import type {
@@ -17,6 +18,7 @@ import type {
 } from "convex/server";
 
 declare const fullApi: ApiFromModules<{
+  priceSnapshots: typeof priceSnapshots;
   stocks: typeof stocks;
 }>;
 
